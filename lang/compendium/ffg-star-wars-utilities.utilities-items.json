@@ -5,8 +5,7 @@
         "Critical injuries": "Blessures critiques"
     },
 	"mapping": {
-		"description": "system.description",
-		"min": "system.min"
+		"description": "system.description"
 	},
 	"entries": {
 		"Agonizing Wound": {
@@ -17,8 +16,7 @@
 		"Engines Down": {
 			"id": "Engines Down",
 			"name": "Arrêt du moteur",
-			"description": "Vitesse = 0 et il n'est pas possible d'effectuer de manoeuvre jusqu'à réparation.<br>Le vaisseau continue dans sa course tout seul.",
-			"min":"50"
+			"description": "Vitesse = 0 et il n'est pas possible d'effectuer de manoeuvre jusqu'à réparation.<br>Le vaisseau continue dans sa course tout seul."
 		},
 		"At the Brink": {
 			"id": "At the Brink",
