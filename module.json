@@ -79,7 +79,7 @@
 			"flags": {}
 		}
 	],
-	"url": "",
-	"manifest": "",
+	"url": "https://github.com/TeddyBears/StarWarsFFG-utilities",
+	"manifest": "https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json",
 	"download": ""
 }
