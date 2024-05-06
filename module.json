@@ -1,0 +1,85 @@
+{
+	"id": "ffg-star-wars-utilities",
+	"title": "FFG Star Wars - Utilities",
+	"description": "Macros and some items",
+	"version": "1.1.0",
+	"compatibility": {
+		"minimum": 11,
+		"verified": 11,
+		"maximum": 11
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "starwarsffg",
+				"manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+				"type": "system",
+				"compatibility": {}
+			}
+		],
+		"requires": [
+			{
+				"id": "babele",
+				"type": "module",
+				"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+				"compatibility": {
+					"verified": "1.2.0"
+				}
+			}
+		]
+	},
+	"esmodules": [
+		"scripts/register-babele.js"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "fr",
+			"name": "French (Français)",
+			"path": "lang/fr.json"
+		}
+	],
+	"packs": [
+		{
+			"name": "utilities-items",
+			"label": "Utilities - Items",
+			"path": "packs/items",
+			"type": "Item",
+			"system": "starwarsffg",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "utilities-macros",
+			"label": "Utilities - Macros",
+			"path": "packs/macros",
+			"type": "Macro",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "utilities-roll-tables",
+			"label": "Utilities - Roll Tables",
+			"path": "packs/roll-tables",
+			"type": "RollTable",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		}
+	],
+	"url": "",
+	"manifest": "",
+	"download": ""
+}

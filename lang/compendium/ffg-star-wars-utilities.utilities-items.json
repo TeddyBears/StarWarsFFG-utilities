@@ -1,0 +1,254 @@
+{
+	"label": "Utilitaires - Items",
+	"folders": {
+        "Critical hits": "Dégâts critiques",
+        "Critical injuries": "Blessures critiques"
+    },
+	"mapping": {
+		"description": "system.description",
+		"min": "system.min"
+	},
+	"entries": {
+		"Agonizing Wound": {
+			"id": "Agonizing Wound",
+			"name": "Blessure Lancinante",
+			"description": "La cible ajoute [di] à tous ses tests de Vigueur et d'Agilité jusqu'à la fin de la rencontre."
+		},
+		"Engines Down": {
+			"id": "Engines Down",
+			"name": "Arrêt du moteur",
+			"description": "Vitesse = 0 et il n'est pas possible d'effectuer de manoeuvre jusqu'à réparation.<br>Le vaisseau continue dans sa course tout seul.",
+			"min":"50"
+		},
+		"At the Brink": {
+			"id": "At the Brink",
+			"name": "Exténuation",
+			"description": "La cible subit 1 stress chaque fois qu'elle exécute une action."
+		},
+		"Fire!": {
+			"id": "Fire!",
+			"name": "Au feu !",
+			"description": "-2 en stress mécanique.<br>l'équipage peut être pris dans le feu. Nécessite 1 round par 2 de Silhouette pour éteindre le feu.<br>Des jets de Calme et Vigilance sont nécessaire."
+		},
+		"Bleeding Out": {
+			"id": "Bleeding Out",
+			"name": "Hémoragie",
+			"description": "A chaque tour, la cible subit 1 point de blessure et 1 point de stress au début de son tour. Elle subit une blessure critique par tranche de 5 points de blessure reçues au-delà de son seuil de blessure. Lancez alors les dés et consultez cette table: si par ce biais elle retombe sur ce résultat, relancez les dés."
+		},
+		"Blinded": {
+			"id": "Blinded",
+			"name": "Aveuglé",
+			"description": "La cible est privée de la vue. Ajoutez [di][di] sur tous les tests ([di][di][di] pour les tests de Perception et Vigilance)."
+		},
+		"Shields Down": {
+			"id": "Shields Down",
+			"name": "Boucliers désactivés",
+			"description": "Défense dans la zone atteinte réduite à 0,-1 en défense dans les autres zones jusqu'à réparation.<br><br>Si pas de défense, -4 en stress mécanique."
+		},
+		"Jostled": {
+			"id": "Jostled",
+			"name": "Bousculé",
+			"description": "Une petite collision ou explosion ébranle le véhicule. Tous les membres d'équipage sont désorienté pendant un tour et encaissent 1 point de stress"
+		},
+		"Bowled Over": {
+			"id": "Bowled Over",
+			"name": "Renversement",
+			"description": "La cible se retrouve à terre et subit 1 point de stress"
+		},
+		"Major Hull Breach": {
+			"id": "Major Hull Breach",
+			"name": "Brèche majeur dans la coque",
+			"description": "Silhouette 4- : Dépressurisé dans {silouhette} rounds<br/>Silhouette 5+ : Partiellement dépressurisé à la dicression du MJ"
+		},
+		"Component Hit": {
+			"id": "Component Hit",
+			"name": "Composant touché",
+			"description": "Un composant, choisi par l'attaquant, est désactivé et inutilisable jusqu'à la fin du prochain tour.<br/> En fonction du gabarit de l'appareil, vous pouvez consulter la table @UUID[Compendium.ffg-star-wars-utilities.utilities-roll-tables.RollTable.EAsq5Y9MAegRQeW7]{Composants pour les petits véhicules} ou la table @UUID[Compendium.ffg-star-wars-utilities.utilities-roll-tables.RollTable.F47suRymRdk8v71M]{Composants pour les grands véhicules} pour obtenir une liste des composants"
+		},
+		"Compromised": {
+			"id": "Compromised",
+			"name": "A mal",
+			"description": "La cible ajoute [di] à tous ses tests de compétence jusqu'à la fin de la rencontre."
+		},
+		"Crippled": {
+			"id": "Crippled",
+			"name": "Infirmité",
+			"description": "L'un des membres de la cible (choisi par la MJ) est infirme jusqu'à ce qu'on le soigne ou le remplace. La cible ajoute [di] à tous les tests faisant intervenir ce membre."
+		},
+		"Tailspin": {
+			"id": "Tailspin",
+			"name": "Culbuté",
+			"description": "Les attaques du vaisseau ou du véhicule subissent [se][se] et le membres d'équipage sont imobilisés jusqu'à la fin du prochain tour du pilote."
+		},
+		"Dead": {
+			"id": "Dead",
+			"name": "Mort",
+			"description": "Décès !"
+		},
+		"Major System Failure": {
+			"id": "Major System Failure",
+			"name": "Défaillance d'un système majeur",
+			"description": "Un composant du vaisseau ne fonctionne plus jusqu'à réparation<br>Vous pouvez consulter la table @UUID[Compendium.ffg-star-wars-utilities.utilities-roll-tables.RollTable.EAsq5Y9MAegRQeW7]{Composants pour les petits véhicules} ou la table @UUID[Compendium.ffg-star-wars-utilities.utilities-roll-tables.RollTable.F47suRymRdk8v71M]{Composants pour les grands véhicules} pour obtenir une liste des composants"
+		},
+		"Shields Failing": {
+			"id": "Shields Failing",
+			"name": "Défaillance des boucliers",
+			"description": "La caractéristique de défense de toutes les zones est réduite de 1 jusqu'à ce que le vaisseau soit réparé. Si l'appareil ou le véhicule ne dispose pas de défense, il subit 2 points de stress mécanique à la place"
+		},
+		"Navicomputer Failure": {
+			"id": "Navicomputer Failure",
+			"name": "Défaillance du naviordinateur",
+			"description": "Le naviordinateur de l'appareil (ou le Droïde R2 le cas échéant) cesse de fonctionner, ce qui rend impossible tout saut dans l'hyperespace tant qu'il n'est pas réparé. Si le vaisseau ou le véhicule ne dispose pas d'un hyperdrive, ce sont les systèmes de navigation qui défaillent, et il doit donc voler ou rouler en aveugle."
+		},
+		"Vaporized": {
+			"id": "Vaporized",
+			"name": "Désintégré",
+			"description": "Le vaisseau est détruit dans une impressionante explosion. Personne ne survit"
+		},
+		"Destabilized": {
+			"id": "Destabilized",
+			"name": "Déstabilisé",
+			"description": "Le maximum de coque et de stress mécanique sont divisé par 2 jusqu'à réparation."
+		},
+		"Knocked Off Course": {
+			"id": "Knocked Off Course",
+			"name": "Dévié",
+			"description": "Une explosion particulièrement violente ou un impact fait changer le vaisseau ou le véhicule de cap. Son pilote ne peut pas faire de manoeuvre lors de son prochain tour et doit réussir un <strong>test de pilotage</strong> pour reprendre le contrôle. Le niveau de difficulté du test est déterminé par la vitesse actuelle de l'appareil."
+		},
+		"Discouraging Wound": {
+			"id": "Discouraging Wound",
+			"name": "Blessure Accablante",
+			"description": "Prenez un point de Destin côté lumineux et retournez-le côté obscure (l'inverse en cas de PNJ)."
+		},
+		"Breaking Up": {
+			"id": "Breaking Up",
+			"name": "Dislocation",
+			"description": "Le vaisseau est détruit à la fin du round"
+		},
+		"Distracted": {
+			"id": "Distracted",
+			"name": "Distraction",
+			"description": "La cible ne peut exécuté de manoeuvre gratuite à son prochain tour"
+		},
+		"Fearsome Wound": {
+			"id": "Fearsome Wound",
+			"name": "Blessure Lancinante",
+			"description": "La cible ajoute [di] à tous ses tests de Vigueur et d'Agilité jusqu'à la fin de la rencontre"
+		},
+		"Power Fluctuations": {
+			"id": "Power Fluctuations",
+			"name": "Fluctuation énergétiques",
+			"description":"Le vaisseau ou le véhicule est victime d'accès soudains de surtension ou perd son alimentaion de façon intermittente. Le pilote ne peut plus choisir d'infliger 1 point de stress mécanique à son vaisseau pour obtenir un manoeuvre supplémentaire tant que ce dégât critique n'est pas réparé."
+		},
+		"Gruesome Injury": {
+			"id": "Gruesome Injury",
+			"name":"Blessure de Cauchemar",
+			"description":"Réduit une caractéristique au hazard de 1. Minimum 1.<br/>@UUID[Compendium.ffg-star-wars-utilities.utilities-roll-tables.RollTable.NksGMgQjhuzHS8yG]{Blessures : caractéristiques}"
+		},
+		"Hamstrung": {
+			"id": "Hamstrung",
+			"name":"Paralysé",
+			"description":"La cible perd sa manoeuvre gratuite jusqu'à la fin de la rencontre."
+		},
+		"Head Ringer": {
+			"id": "Head Ringer",
+			"name":"Mal de Crâne",
+			"description":"La cible ajoute [di] à tous ses tests d'intelligence et de ruse jusqu'à la fin de le rencontre."
+		},
+		"Horrific Injury": {
+			"id": "Horrific Injury",
+			"name":"Blessure Épouvantable",
+			"description":"-1 dans une caractéritiques, jusqu'à guérison.<br>@UUID[Compendium.ffg-star-wars-utilities.utilities-roll-tables.RollTable.NksGMgQjhuzHS8yG]{Blessures : caractéristiques}"
+		},
+		"Knocked Senseless": {
+			"id": "Knocked Senseless",
+			"name":"Perte de connaissance",
+			"description":"La cible est étourdie jusqu'à la fin de la rencontre."
+		},
+		"Maimed": {
+			"id": "Maimed",
+			"name":"Mutilation",
+			"description":"La cible perd définitivement l'un de ses membres (choisi par le MJ). à moins qu'elle ne dispose d'une prothèse cybernétique, elle ne pourra plus exécuter d'action faisant intervenir ce membre. Toutes ses autres actions reçoivent [se]"
+		},
+		"Minor nick": {
+			"id": "Minor nick",
+			"name": "Petite entaille",
+			"description": "La cible subit un point de stress"
+		},
+		"Engine Damaged": {
+			"id":"Engine Damaged",
+			"name": "Moteurs endommagés",
+			"description":"-1 en vitesse (minimum 1) jusqu'à réparation"
+		},
+		"Off-Balance": {
+			"id": "Off-Balance",
+			"name":"Déséquilibre",
+			"description":"La cible ajoute [se] à son prochain test de compétence."
+		},
+		"Overpowered": {
+			"id": "Overpowered",
+			"name":"Aux Abois",
+			"description":"La cible ouvre sa garde, offrant aussitôt à l'attaquant une attaque gratuite contre elle avec la même réserve de dés que l'attaque responsable."
+		},
+		"Losing Power to Shields": {
+			"id":"Losing Power to Shields",
+			"name": "Perte d'alimentation dans les boucliers",
+			"description":"La valeur de défense de la zone affectée est réduite de 1 jusqu'à le dégât critique soit réparé. Si le vaisseau ne dispose pas défense, il subit 1 point de stress mécanique à la place."
+		},
+		"Scattered Senses": {
+			"id": "Scattered Senses",
+			"name":"Confusion",
+			"description":"La cible retire tous les [bo] de ses tests de compétence jusqu'à la fin de la rencontre."
+		},
+		"Slightly Dazed": {
+			"id": "Slightly Dazed",
+			"name":"Hébétement",
+			"description":"La cible est désorientée jusqu'à la fin de la rencontre.<br>+[SE] à tous les jets"
+		},
+		"Slowed Down": {
+			"id": "Slowed Down",
+			"name":"Ralentissement",
+			"description":"La cible ne pourra pas agir à son prochain tour que durant le dernier créneau d'initiative allié"
+		},
+		"Stinger": {
+			"id": "Stinger",
+			"name":"Piqûre",
+			"description":"La cible ajoute [di] à son prochain test."
+		},
+		"Mechnical Stress": {
+			"id":"Mechnical Stress",
+			"name": "Stress Mécanique",
+			"description":"Le vaisseau ou le véhicule encaisse 1 point de stress mécanique"
+		},
+		"Stunned": {
+			"id": "Stunned",
+			"name":"Etourdissement",
+			"description":"La cible est étourdie jusqu'à la fin de son prochain tour"
+		},
+		"Sudden Jolt": {
+			"id": "Sudden Jolt",
+			"name":"Choc",
+			"description":"La cible lâche ce qu'elle tient"
+		},
+		"Shield Overload": {
+			"id":"Shield Overload",
+			"name": "Surcharge des boucliers",
+			"description":"Les boucliers de l'appareil défaillent complétement. La défense de toutes les zones tombe à 0. Ce dégât critique ne peut pas être réparé avant la fin de la rencontre et l'appareil encaisse 2 points de stress mécanique. Si le vaisseau ou le véhicule ne dispose pas de défenses, son blindage est réduit de 1 à la place"
+		},
+		"Temporarily Lame": {
+			"id": "Temporarily Lame",
+			"name":"Invalidité",
+			"description":"Tant que cette blessure critique n'est pas soignée, la cible ne peut effectuer plus d'une manoeuvre à son tour."
+		},
+		"The End is Nigh": {
+			"id": "The End is Nigh",
+			"name":"La fin est proche",
+			"description":"La cible va mourir après le dernier créneau d'initiative du prochain tour."
+		},
+		"Winded": {
+			"id": "Winded",
+			"name":"Hors d'Haleine",
+			"description":"Jusqu'à la fin de la rencontre, la cible ne peut s'infliger volontairement du stress pour activer une capacité ou bénéficier de manoeuvres supplémentaires."
+		}
+	}
+}

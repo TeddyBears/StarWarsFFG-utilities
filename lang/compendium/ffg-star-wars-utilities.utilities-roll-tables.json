@@ -1,0 +1,50 @@
+{
+    "label": "Utilitaire - Table aléatoire",
+    "entries": [
+        {
+            "id": "Injuries : characteristics",
+            "name": "Blessures : caractéristiques",
+            "description": "",
+            "results": {
+                "1-3": "Vigeur",
+                "4-6":"Agilité",
+                "7-7":"Intelligence",
+                "8-8":"Ruse",
+                "9-9":"Présence",
+                "10-10":"Volonté"
+            }
+        },
+        {
+            "id": "Small vehicule components",
+            "name": "Composants pour les petits véhicules",
+            "description": "Liste des composants pour les véhicules avec un gabarit <= 4",
+            "results": {
+                "1-1": "Droïd de support: Astromech ou équivalent. Si c'est un joueur, il subit 10 stress",
+                "2-2":"Système d'éjection : Il n'ai pas possible d'évacuer du véhicule",
+                "3-3":"Système d'arme : Une arme ne peut pas être utilisée.",
+                "4-4":"Senseur : -1 ç la partée des senseurq",
+                "5-5":"Communications : Ne peut pas envoyer / recevoir de messages ou de données.",
+                "6-6":"Moteur subluminique : vitesse -1",
+                "7-7":"Hyperdrive : Ne pas passer en hyper espace",
+                "8-8":"Boucliers :-1 en défence dans toutes les zones"
+            }
+        },
+        {
+            "id": "Large vehicule components",
+            "name": "Composants pour les grands véhicules",
+            "description": "Liste des composants pour les véhicules avec un gabarit >= 5",
+            "results": {
+                "1-1": "Système d'atterrissage : Si doit attérir sans l'équipement, 2 dégâts de coque et 2 stress mécanique",
+                "2-2":"Système d'arme : Une arme ne peut pas être utilisée.",
+                "3-3":"Senseur : -1 ç la partée des senseurq",
+                "4-4":"Communications : Ne peut pas envoyer / recevoir de messages ou de données.",
+                "5-5":"Moteur subluminique : vitesse -1",
+                "6-6":"Hyperdrive : Ne pas passer en hyper espace",
+                "7-7":"Boucliers :-1 en défence dans toutes les zones",
+                "8-8":"Quai d'arrimage : Un quai d'arrimage ne peut pas être utilisé. Possibilité de décompression",
+                "9-9":"Soute : La soute donne sur le vide spatial. La cargaison peut être perdue ou endommagée.",
+                "10-10":"Pont : Aucune maneuvre ou action ne peuvent être accomplies"
+            }
+        }
+    ]
+}

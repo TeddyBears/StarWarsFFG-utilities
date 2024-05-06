@@ -1,0 +1,16 @@
+{
+    "ffg-star-wars-utilities.damage.result": "Résusltat des dégâts",
+    "ffg-star-wars-utilities.damage.take": " a pris ",
+    "ffg-star-wars-utilities.damage.damages": " dégâts(s)",
+    "ffg-star-wars-utilities.token.notarget": "Vous devez cibler un token",
+    "ffg-star-wars-utilities.token.select": "Vous devez sélectionner un seul token",
+    "ffg-star-wars-utilities.token.miss": "L'attaquant a raté sa cible",
+    "ffg-star-wars-utilities.token.nomessage": "Pas de message d'attaque trouvé",
+    "ffg-star-wars-utilities.critical.tokenIsMinion": "Les minions ne peuvent pas prendre de critique",
+    "ffg-star-wars-utilities.strain.select": "Un seul token doit être sélectionné pour récupérer le ",
+    "ffg-star-wars-utilities.strain.noStrain.has": "n'a pas de",
+    "ffg-star-wars-utilities.strain.noStrain.heal": "à soigner",
+    "ffg-star-wars-utilities.strain.selectSkill.label": "Sélectionner la compétence de récupération",
+    "ffg-star-wars-utilities.strain.with": "avec",
+    "ffg-star-wars-utilities.strain.surplus": "surplus d'"
+}
