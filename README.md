@@ -14,6 +14,9 @@ A lot of Macros come from https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki
 Some modifications was done to these macros to add translations in interface message.  
 So messages are available in english and in french.
 
+## Instalation
+Use the manifest url to install the module [module.json](https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json)
+
 ## Setup
 1. Be sure you don't have other critical injuries or critical damage items in your world. Macro to create roll table use all items with these 2 types.
 1. After installed the module go to compendium and import all items. This will add all critical items.
