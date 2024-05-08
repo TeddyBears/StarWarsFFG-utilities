@@ -23,6 +23,7 @@
 				"type": "module",
 				"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
 				"compatibility": {
+					"minimum": "2.5.0",
 					"verified": "2.5.3"
 				}
 			},
@@ -31,6 +32,7 @@
 				"type": "module",
 				"manifest": "https://github.com/wrycu/StarWarsFFG-Enhancements/releases/latest/download/module.json",
 				"compatibility": {
+					"minimum": "2.0.6",
 					"verified": "2.0.6"
 				}
 			}
