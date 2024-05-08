@@ -1,0 +1,1644 @@
+{
+    "SWFFG.SkillsNameMelee": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Infliger une blessure critique (selon le nombre de critique requis par l'arme)",
+                "required": 1
+            },
+            {
+                "text": "Éliminer un point de stress (plusieurs fois possibles)",
+                "required": 1
+            },
+            {
+                "text": "+[bo] au jet de l'allié suivant",
+                "required": 1
+            },
+            {
+                "text": "Réaliser une manoeuvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de n'importe quel allié",
+                "required": 2
+            },
+            {
+                "text": "Annule les bonus de défense de la cible jusqu'au prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Ignore les pénalités dues à l'environnement jusqu'à la fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Neutralise la cible au lieu de subir des blessures/stress",
+                "required": 3
+            },
+            {
+                "text": "+1 en défense (cac ou dist.) jusqu'à le fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "La cible lâche une arme tenue",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Améliore la difficulté du prochain test de la cible",
+                "required": 1
+            },
+            {
+                "text": "Améliore le prochain test de n'importe quel allié",
+                "required": 1
+            },
+            {
+                "text": "Détruit une pièce d'équipement de la cible",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Subit 1 stress",
+                "required": 1
+            },
+            {
+                "text": "Perds le bénéfice d'une précédente manoeuvre (abri, défense)",
+                "required": 1
+            },
+            {
+                "text": "Un adversaire exécute immédiatement une maneouvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain test du personnage visé",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain test d'un allié",
+                "required": 2
+            },
+            {
+                "text": "Le personnage tombe à terre",
+                "required": 3
+            },
+            {
+                "text": "Le slot utilisé passe en dernier dans l'ordre d'initiative",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "L'attaque à distance touche un personnage au contact avec la cible",
+                "required": 1
+            },
+            {
+                "text": "L'arme à distance est à court de munition",
+                "required": 1
+            },
+            {
+                "text": "Améliore la difficulté du prochain teste d'un allié",
+                "required": 1
+            },
+            {
+                "text": "L'outil ou l'arme utilisée est endommagée",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameBrawl": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Infliger une blessure critique (selon le nombre de critique requis par l'arme)",
+                "required": 1
+            },
+            {
+                "text": "Éliminer un point de stress (plusieurs fois possibles)",
+                "required": 1
+            },
+            {
+                "text": "+[bo] au prochain jet d'un allié",
+                "required": 1
+            },
+            {
+                "text": "Réaliser une manoeuvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de n'importe quel allié",
+                "required": 2
+            },
+            {
+                "text": "Annule les bonus de défense de la cible jusqu'au prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Ignore les pénalités dues à l'environnement jusqu'à la fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Neutralise la cible au lieu de subir des blessures/stress",
+                "required": 3
+            },
+            {
+                "text": "+1 en défense (cac ou dist.) jusqu'à le fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "La cible lâche une arme tenue",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Améliore la difficulté du prochain test de la cible",
+                "required": 1
+            },
+            {
+                "text": "Améliore le prochain test de n'importe quel allié",
+                "required": 1
+            },
+            {
+                "text": "Détruit une pièce d'équipement de la cible",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Subit 1 stress",
+                "required": 1
+            },
+            {
+                "text": "Perds le bénéfice d'une précédente manoeuvre (abri, défense)",
+                "required": 1
+            },
+            {
+                "text": "Un adversaire exécute immédiatement une maneouvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain test d'un allié",
+                "required": 2
+            },
+            {
+                "text": "Le personnage tombe à terre",
+                "required": 3
+            },
+            {
+                "text": "Le slot utilisé passe en dernier dans l'ordre d'initiative",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "L'attaque à distance touche un personnage au contact avec la cible",
+                "required": 1
+            },
+            {
+                "text": "L'arme à distance est à court de munition",
+                "required": 1
+            },
+            {
+                "text": "Améliore la difficulté du prochain teste d'un allié",
+                "required": 1
+            },
+            {
+                "text": "L'outil ou l'arme utilisée est endommagée",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameLightsaber": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Infliger une blessure critique (selon le nombre de critique requis par l'arme)",
+                "required": 1
+            },
+            {
+                "text": "Éliminer un point de stress (plusieurs fois possibles)",
+                "required": 1
+            },
+            {
+                "text": "+[bo] au prochain jet d'un allié",
+                "required": 1
+            },
+            {
+                "text": "Réaliser une manoeuvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de n'importe quel allié",
+                "required": 2
+            },
+            {
+                "text": "Annule les bonus de défense de la cible jusqu'au prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Ignore les pénalités dues à l'environnement jusqu'à la fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Neutralise la cible au lieu de subir des blessures/stress",
+                "required": 3
+            },
+            {
+                "text": "+1 en défense (cac ou dist.) jusqu'à le fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "La cible lâche une arme tenue",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Améliore la difficulté du prochain test de la cible",
+                "required": 1
+            },
+            {
+                "text": "Améliore le prochain test de n'importe quel allié",
+                "required": 1
+            },
+            {
+                "text": "Détruit une pièce d'équipement de la cible",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Subit 1 stress",
+                "required": 1
+            },
+            {
+                "text": "Perds le bénéfice d'une précédente manoeuvre (abri, défense)",
+                "required": 1
+            },
+            {
+                "text": "Un adversaire exécute immédiatement une maneouvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain test d'un allié",
+                "required": 2
+            },
+            {
+                "text": "Le personnage tombe à terre",
+                "required": 3
+            },
+            {
+                "text": "Le slot utilisé passe en dernier dans l'ordre d'initiative",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "L'attaque à distance touche un personnage au contact avec la cible",
+                "required": 1
+            },
+            {
+                "text": "L'arme à distance est à court de munition",
+                "required": 1
+            },
+            {
+                "text": "Améliore la difficulté du prochain teste d'un allié",
+                "required": 1
+            },
+            {
+                "text": "L'outil ou l'arme utilisée est endommagée",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameRangedLight": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Infliger une blessure critique (selon le nombre de critique requis par l'arme)",
+                "required": 1
+            },
+            {
+                "text": "Éliminer un point de stress (plusieurs fois possibles)",
+                "required": 1
+            },
+            {
+                "text": "+[bo] au prochain jet d'un allié",
+                "required": 1
+            },
+            {
+                "text": "Réaliser une manoeuvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de n'importe quel allié",
+                "required": 2
+            },
+            {
+                "text": "Annule les bonus de défense de la cible jusqu'au prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Ignore les pénalités dues à l'environnement jusqu'à la fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Neutralise la cible au lieu de subir des blessures/stress",
+                "required": 3
+            },
+            {
+                "text": "+1 en défense (cac ou dist.) jusqu'à le fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "La cible lâche une arme tenue",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Améliore la difficulté du prochain test de la cible",
+                "required": 1
+            },
+            {
+                "text": "Améliore le prochain test de n'importe quel allié",
+                "required": 1
+            },
+            {
+                "text": "Détruit une pièce d'équipement de la cible",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Subit 1 stress",
+                "required": 1
+            },
+            {
+                "text": "Perds le bénéfice d'une précédente manoeuvre (abri, défense)",
+                "required": 1
+            },
+            {
+                "text": "Un adversaire exécute immédiatement une maneouvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain test d'un allié",
+                "required": 2
+            },
+            {
+                "text": "Le personnage tombe à terre",
+                "required": 3
+            },
+            {
+                "text": "Le slot utilisé passe en dernier dans l'ordre d'initiative",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "L'attaque à distance touche un personnage au contact avec la cible",
+                "required": 1
+            },
+            {
+                "text": "L'arme à distance est à court de munition",
+                "required": 1
+            },
+            {
+                "text": "Améliore la difficulté du prochain teste d'un allié",
+                "required": 1
+            },
+            {
+                "text": "L'outil ou l'arme utilisée est endommagée",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameRangedHeavy": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Infliger une blessure critique (selon le nombre de critique requis par l'arme)",
+                "required": 1
+            },
+            {
+                "text": "Éliminer un point de stress (plusieurs fois possibles)",
+                "required": 1
+            },
+            {
+                "text": "+[bo] au prochain jet d'un allié",
+                "required": 1
+            },
+            {
+                "text": "Réaliser une manoeuvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de n'importe quel allié",
+                "required": 2
+            },
+            {
+                "text": "Annule les bonus de défense de la cible jusqu'au prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Ignore les pénalités dues à l'environnement jusqu'à la fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Neutralise la cible au lieu de subir des blessures/stress",
+                "required": 3
+            },
+            {
+                "text": "+1 en défense (cac ou dist.) jusqu'à le fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "La cible lâche une arme tenue",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Améliore la difficulté du prochain test de la cible",
+                "required": 1
+            },
+            {
+                "text": "Améliore le prochain test de n'importe quel allié",
+                "required": 1
+            },
+            {
+                "text": "Détruit une pièce d'équipement de la cible",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Subit 1 stress",
+                "required": 1
+            },
+            {
+                "text": "Perds le bénéfice d'une précédente manoeuvre (abri, défense)",
+                "required": 1
+            },
+            {
+                "text": "Un adversaire exécute immédiatement une maneouvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain test d'un allié",
+                "required": 2
+            },
+            {
+                "text": "Le personnage tombe à terre",
+                "required": 3
+            },
+            {
+                "text": "Le slot utilisé passe en dernier dans l'ordre d'initiative",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "L'attaque à distance touche un personnage au contact avec la cible",
+                "required": 1
+            },
+            {
+                "text": "L'arme à distance est à court de munition",
+                "required": 1
+            },
+            {
+                "text": "Améliore la difficulté du prochain teste d'un allié",
+                "required": 1
+            },
+            {
+                "text": "L'outil ou l'arme utilisée est endommagée",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameGunnery": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Infliger une blessure critique (selon le nombre de critique requis par l'arme)",
+                "required": 1
+            },
+            {
+                "text": "Éliminer un point de stress (plusieurs fois possibles)",
+                "required": 1
+            },
+            {
+                "text": "+[bo] au prochain jet d'un allié",
+                "required": 1
+            },
+            {
+                "text": "Réaliser une manoeuvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de n'importe quel allié",
+                "required": 2
+            },
+            {
+                "text": "Annule les bonus de défense de la cible jusqu'au prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Ignore les pénalités dues à l'environnement jusqu'à la fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "Neutralise la cible au lieu de subir des blessures/stress",
+                "required": 3
+            },
+            {
+                "text": "+1 en défense (cac ou dist.) jusqu'à le fin du prochain tour",
+                "required": 3
+            },
+            {
+                "text": "La cible lâche une arme tenue",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Améliore la difficulté du prochain test de la cible",
+                "required": 1
+            },
+            {
+                "text": "Améliore le prochain test de n'importe quel allié",
+                "required": 1
+            },
+            {
+                "text": "Détruit une pièce d'équipement de la cible",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Subit 1 stress",
+                "required": 1
+            },
+            {
+                "text": "Perds le bénéfice d'une précédente manoeuvre (abri, défense)",
+                "required": 1
+            },
+            {
+                "text": "Un adversaire exécute immédiatement une maneouvre gratuite",
+                "required": 2
+            },
+            {
+                "text": "+[bo] au prochain jet de la cible",
+                "required": 2
+            },
+            {
+                "text": "+[se] au prochain test d'un allié",
+                "required": 2
+            },
+            {
+                "text": "Le personnage tombe à terre",
+                "required": 3
+            },
+            {
+                "text": "Le slot utilisé passe en dernier dans l'ordre d'initiative",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "L'attaque à distance touche un personnage au contact avec la cible",
+                "required": 1
+            },
+            {
+                "text": "L'arme à distance est à court de munition",
+                "required": 1
+            },
+            {
+                "text": "Améliore la difficulté du prochain teste d'un allié",
+                "required": 1
+            },
+            {
+                "text": "L'outil ou l'arme utilisée est endommagée",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameAstrogation": {
+        "su": [
+            {
+                "text": "Réduit le temps de calcul",
+                "required": 1
+            },
+            {
+                "text": "Augmente la précision du saut",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Réduit le temps de trajet",
+                "required": 1
+            },
+            {
+                "text": "Identifie de meilleurs points de saut",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Réduit au minimum le temps de calcul",
+                "required": 1
+            },
+            {
+                "text": "Révèle de bien meilleurs informations jusque là inconnues, comme une meilleure route hyperspatial.",
+                "required": 1
+            },
+            {
+                "text": "Réduit énormemment le temps de trajet.",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Increase the travel time of a hyperspace jump",
+                "required": 1
+            },
+            {
+                "text": "Decrease the accuracy of a hyperspace jump",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Could trigger something truly awful happening, such as jumping out of hyperspace in the path of an asteroid",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameAthletics": {
+        "su": [
+            {
+                "text": "Réduit le temps / Augmente la distance parcourue",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "+[bo] sur les autres tests physiques",
+                "required": 1
+            },
+            {
+                "text": "+1 manoeuvre basé sur le déplacement",
+                "required": 2
+            }
+        ],
+        "tr": [],
+        "fa": [],
+        "th": [
+            {
+                "text": "+1 stress",
+                "required": 1
+            },
+            {
+                "text": "Tombe au sol",
+                "required": 2
+            },
+            {
+                "text": "+1 blessure",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Subit une blessure critique",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCharm": {
+        "su": [
+            {
+                "text": "Extend support for +1 scene",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Agit sur une cible supplémentaire",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "La cible devient un allier potentiel",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Réduit le nombre de personne influencée",
+                "required": 1
+            },
+            {
+                "text": "Les autres personnes que la cible deviennent hostile",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "La cible ou les autres PNJs deviennent des adversaires potentiels",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCoercion": {
+        "su": [
+            {
+                "text": "+1 stress",
+                "required": 2
+            }
+        ],
+        "ad": [
+            {
+                "text": "Agit sur une cible supplémentaire",
+                "required": 2
+            }
+        ],
+        "tr": [
+            {
+                "text": "La cible devient un allier potentiel",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Crée un ressentiement au PNj",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Révèle quelque chose sur ses vrais intentions",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameComputers": {
+        "su": [
+            {
+                "text": "Réduit le temps nécessaire",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Découvre des informations complémentaires (journal personnel, données cachées)",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Efface les trace du piratage",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "La sécurité est alertée. Les agents ont +[bo] contre le personnage",
+                "required": 1
+            },
+            {
+                "text": "",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Le personnage peut être tracé / identifié, +[bo] contre les futurs tests cqui cible le pirate",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCool": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Informations complémentaires sur la situation",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "-3 stress",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Passe à coté de détails / évenements important",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Paralisé pendant 1 tour",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCoordination": {
+        "su": [
+            {
+                "text": "Aungmente la distance de 25%. Maximum [su][su][su][su]",
+                "required": 1
+            },
+            {
+                "text": "Réduit le temps",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "+1 manoeuvre",
+                "required": 2
+            }
+        ],
+        "tr": [],
+        "fa": [],
+        "th": [
+            {
+                "text": "Perd la manoeuvre gratuite pendant 1 tour",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "+1 blessure / perd une pièce d'équipement",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameDeception": {
+        "su": [
+            {
+                "text": "Prolonger la durée de la tromperie",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Augmenter la valeur des biens/services acquis",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "La cible croit que le personnage est digne de confiance ; les futurs tests ne sont pas contrés (le MJ attribue la difficulté en fonction du mensonge).",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "La cible perçoit une partie du mensonge / sait qu'on lui a menti",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "La cible répand la nouvelle de la tromperie",
+                "required": 1
+            },
+            {
+                "text": "La cible tourne le mensonge à son avantage (mauvaises informations/marchandises)",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameDiscipline": {
+        "su": [
+            {
+                "text": "Abaisse [CH] sur la prochaine action",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Informations supplémentaires sur la situation",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "+[bo] à un allier sur un jet de sang-froid pour 1 tour",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "+[di] à la prochaine action, la détermination du personnage est mise à mal",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Perte d'action / ne peut effectuer qu'une seule manœuvre au prochain tour",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameLeadership": {
+        "su": [
+            {
+                "text": "Prolonger la durée de l'aide",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Affecter des sujets au-delà de la cible initiale",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Le PNJ devient un fidèle récurrent",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Les actions commandées prennent plus de temps ou sont mal exécutées",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Sape l'autorité du personnage, ce qui porte atteinte à sa capacité de commander la cible ou les personnes qui ont été témoins de la tentative. ",
+                "required": 1
+            },
+            {
+                "text": "La cible devient un problème récurrent dans le pied du personnage, soit en refusant purement et simplement les ordres futurs, soit en dressant les autres contre le personnage",
+                "required": 2
+            }
+        ]
+    },
+    "SWFFG.SkillsNameMechanics": {
+        "su": [
+            {
+                "text": "Réduire le temps requis de 10-20%",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Réparations de qualité supérieure : +[bo] à l'utilisation de l'objet pendant 1 session / L'objet acquiert une qualité supérieure pendant 1 session",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Donner à l'appareil une nouvelle fonction à usage unique",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Dysfonctionnements de l'article dans un avenir proche",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Dégâts supplémentaires à la cible",
+                "required": 1
+            },
+            {
+                "text": "Les composants associés commencent à dysfonctionner",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsMedicine": {
+        "su": [
+            {
+                "text": "soigne une seule blessure, jusqu'au nombre maximum de blessures que la cible subit actuellement",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "-1 stress",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Un test de médecine pour soigner une blessure critique peut également soigner d'autres blessures, et vice versa.",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "+1 stress",
+                "required": 1
+            },
+            {
+                "text": "Augmente le temps de la procédure",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Inflige d'autres blessures à une cible qu'il tentait de guérir d'une blessure critique",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameNegotiation": {
+        "su": [
+            {
+                "text": "Augmente la durée du contrat / le bénéfice de 5%",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Obtient un avantage ou une concession de la part de la cible",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Le PNJ devient un client ou un vendeur régulier",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Augmenter les coûts / diminuer la valeur / raccourcir le contrat.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "L'accord contient une grave faille",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNamePerception": {
+        "su": [
+            {
+                "text": "Révèle des informations supplémentaires",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Rappeler des informations supplémentaires sur l'objet remarqué",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Noter les détails utiles, gagner +[bo] sur les interactions futures",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Dissimule des détails essentiels",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Fausses informations",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNamePilotingPlanetary": {
+        "su": [],
+        "ad": [
+            {
+                "text": "informations sur style de pilotage de l'adversaire. +[bo] au prochain test",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "+1 manœuvre avec le véhicule",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "L'adversaire gagne +[bo] contre le personnage",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Véhicule endommagé",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNamePilotingSpace": {
+        "su": [],
+        "ad": [
+            {
+                "text": "informations sur style de pilotage de l'adversaire. +[bo] au prochain test",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "+1 manœuvre avec le véhicule",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "L'adversaire gagne +[bo] contre le personnage",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Véhicule endommagé",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameResilience": {
+        "su": [
+            {
+                "text": "Prolonge le délai avant le prochain test",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Identifier une méthode pour gagner +[bo] sur les futurs tests (y compris pour les alliés)",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "-3 stress",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "+[se] sur le prochain test de résistance",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "+1 blessure ou blessure critique mineure",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameSkulduggery": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Obtenir des éléments supplémentaires / identifier une cible supplémentaire",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Gain permanent bypass",
+                "required": 1
+            },
+            {
+                "text": "Obtient des informations supplémentaires",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Possibilité pour les PNJ de les attraper après l'acte",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Éléments de preuve laissés sur place / équipements perdus",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameStealth": {
+        "su": [
+            {
+                "text": "Ajouter [su] au personnage allié",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Réduction du temps nécessaire",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Identifier la méthode de distraction de l'adversaire pour l'ensemble de la scène",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Augmente le temps requis par 25%",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Éléments de preuve laissés sur place / équipements perdus",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameStreetwise": {
+        "su": [
+            {
+                "text": "Réduire les délais et les coûts",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Obtenir une rumeur supplémentaire / une source alternative",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Obtenir un contact semi-permanent avec un PNJ",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "L'information contient des mensonges",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Intention détectée",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameSurvival": {
+        "su": [
+            {
+                "text": "Ajoute [su] au personnage allié",
+                "required": 1
+            },
+            {
+                "text": "Obtenir des fournitures supplémentaires",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "+[bo] sur les futurs tests de Survie (y compris pour les alliés)",
+                "required": 1
+            },
+            {
+                "text": "(Pistage) : Obtenir des détails sur la cible (nombre, espèces, âge des traces)",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "(Manipuler les animaux) : L'animal est désormais un compagnon permanent",
+                "required": 1
+            },
+            {
+                "text": "(Pistage) : Obtenir des détails sur la cible (destination, disposition, présence de prisonniers ou de marchandises).",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "The character spends vital resources during the course of his check",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "inflict wounds, Critical Injuries, or high levels of stress",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameVigilance": {
+        "su": [
+            {
+                "text": "Une ressource importante est disponible",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Repère un avantage environnemental (couverture, échappatoire, +[bo])",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Manœuvre supplémentaire lors du premier tour de combat",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Manque une informations sur la situation / l'environnement",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Incapable d'effectuer plus d'une seule manœuvre pendant le premier tour de combat",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeCoreWorlds": {
+        "su": [
+            {
+                "text": "Éléments de connaissance / vitesse d'acquisition des connaissances",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "une connaissance particulièrement utile",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "connaissance extrêmement utile (i.e. faiblesse)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omettre un détail ou un contexte essentiel",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Désinformation / mensonge pur et simple",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeEducation": {
+        "su": [
+            {
+                "text": "Éléments de connaissance / vitesse d'acquisition des connaissances",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "une connaissance particulièrement utile",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "connaissance extrêmement utile (i.e. faiblesse)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omettre un détail ou un contexte essentiel",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Désinformation / mensonge pur et simple",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeLore": {
+        "su": [
+            {
+                "text": "Éléments de connaissance / vitesse d'acquisition des connaissances",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "une connaissance particulièrement utile",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "connaissance extrêmement utile (i.e. faiblesse)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omettre un détail ou un contexte essentiel",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Désinformation / mensonge pur et simple",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeOuterRim": {
+        "su": [
+            {
+                "text": "Éléments de connaissance / vitesse d'acquisition des connaissances",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "une connaissance particulièrement utile",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "connaissance extrêmement utile (i.e. faiblesse)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omettre un détail ou un contexte essentiel",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Désinformation / mensonge pur et simple",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeUnderworld": {
+        "su": [
+            {
+                "text": "Éléments de connaissance / vitesse d'acquisition des connaissances",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "une connaissance particulièrement utile",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "connaissance extrêmement utile (i.e. faiblesse)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omettre un détail ou un contexte essentiel",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Désinformation / mensonge pur et simple",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeXenology": {
+        "su": [
+            {
+                "text": "Éléments de connaissance / vitesse d'acquisition des connaissances",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "une connaissance particulièrement utile",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "connaissance extrêmement utile (i.e. faiblesse)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omettre un détail ou un contexte essentiel",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Désinformation / mensonge pur et simple",
+                "required": 1
+            }
+        ]
+    }
+}

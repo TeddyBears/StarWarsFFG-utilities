@@ -1,0 +1,1644 @@
+{
+    "SWFFG.SkillsNameMelee": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Apply a critical injury (based on critical rating of weapon)",
+                "required": 1
+            },
+            {
+                "text": "Recover one strain",
+                "required": 1
+            },
+            {
+                "text": "+[bo] to next allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Perform immediate free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[se] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to any allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Negate target's defensive bonuses until next round",
+                "required": 3
+            },
+            {
+                "text": "Ignore environmental penalty until end of next turn",
+                "required": 3
+            },
+            {
+                "text": "Target is disabled instead of suffering wounds/strain",
+                "required": 3
+            },
+            {
+                "text": "+1 melee or ranged defense until end of next round",
+                "required": 3
+            },
+            {
+                "text": "Target drops weapon they're wielding",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Upgrade difficulty of target's next check",
+                "required": 1
+            },
+            {
+                "text": "Upgrade ability of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Destroy a piece of equipment carried by target",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Suffer 1 strain",
+                "required": 1
+            },
+            {
+                "text": "Lose benefit of prior maneuver",
+                "required": 1
+            },
+            {
+                "text": "Opponent immediately performs one free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "[se] to active or allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Fall prone",
+                "required": 3
+            },
+            {
+                "text": "Initiative slot being used now last in initiative order",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Ranged attack hits character engaged with target",
+                "required": 1
+            },
+            {
+                "text": "Ranged weapon runs out of ammo",
+                "required": 1
+            },
+            {
+                "text": "Upgrade difficulty of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Tool / weapon being used is damaged",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameBrawl": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Apply a critical injury (based on critical rating of weapon)",
+                "required": 1
+            },
+            {
+                "text": "Recover one strain",
+                "required": 1
+            },
+            {
+                "text": "+[bo] to next allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Perform immediate free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[se] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to any allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Negate target's defensive bonuses until next round",
+                "required": 3
+            },
+            {
+                "text": "Ignore environmental penalty until end of next turn",
+                "required": 3
+            },
+            {
+                "text": "Target is disabled instead of suffering wounds/strain",
+                "required": 3
+            },
+            {
+                "text": "+1 melee or ranged defense until end of next round",
+                "required": 3
+            },
+            {
+                "text": "Target drops weapon they're wielding",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Upgrade difficulty of target's next check",
+                "required": 1
+            },
+            {
+                "text": "Upgrade ability of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Destroy a piece of equipment carried by target",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Suffer 1 strain",
+                "required": 1
+            },
+            {
+                "text": "Lose benefit of prior maneuver",
+                "required": 1
+            },
+            {
+                "text": "Opponent immediately performs one free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "[se] to active or allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Fall prone",
+                "required": 3
+            },
+            {
+                "text": "Initiative slot being used now last in initiative order",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Ranged attack hits character engaged with target",
+                "required": 1
+            },
+            {
+                "text": "Ranged weapon runs out of ammo",
+                "required": 1
+            },
+            {
+                "text": "Upgrade difficulty of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Tool / weapon being used is damaged",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameLightsaber": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Apply a critical injury (based on critical rating of weapon)",
+                "required": 1
+            },
+            {
+                "text": "Recover one strain",
+                "required": 1
+            },
+            {
+                "text": "+[bo] to next allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Perform immediate free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[se] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to any allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Negate target's defensive bonuses until next round",
+                "required": 3
+            },
+            {
+                "text": "Ignore environmental penalty until end of next turn",
+                "required": 3
+            },
+            {
+                "text": "Target is disabled instead of suffering wounds/strain",
+                "required": 3
+            },
+            {
+                "text": "+1 melee or ranged defense until end of next round",
+                "required": 3
+            },
+            {
+                "text": "Target drops weapon they're wielding",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Upgrade difficulty of target's next check",
+                "required": 1
+            },
+            {
+                "text": "Upgrade ability of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Destroy a piece of equipment carried by target",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Suffer 1 strain",
+                "required": 1
+            },
+            {
+                "text": "Lose benefit of prior maneuver",
+                "required": 1
+            },
+            {
+                "text": "Opponent immediately performs one free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "[se] to active or allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Fall prone",
+                "required": 3
+            },
+            {
+                "text": "Initiative slot being used now last in initiative order",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Ranged attack hits character engaged with target",
+                "required": 1
+            },
+            {
+                "text": "Ranged weapon runs out of ammo",
+                "required": 1
+            },
+            {
+                "text": "Upgrade difficulty of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Tool / weapon being used is damaged",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameRangedLight": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Apply a critical injury (based on critical rating of weapon)",
+                "required": 1
+            },
+            {
+                "text": "Recover one strain",
+                "required": 1
+            },
+            {
+                "text": "+[bo] to next allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Perform immediate free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[se] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to any allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Negate target's defensive bonuses until next round",
+                "required": 3
+            },
+            {
+                "text": "Ignore environmental penalty until end of next turn",
+                "required": 3
+            },
+            {
+                "text": "Target is disabled instead of suffering wounds/strain",
+                "required": 3
+            },
+            {
+                "text": "+1 melee or ranged defense until end of next round",
+                "required": 3
+            },
+            {
+                "text": "Target drops weapon they're wielding",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Upgrade difficulty of target's next check",
+                "required": 1
+            },
+            {
+                "text": "Upgrade ability of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Destroy a piece of equipment carried by target",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Suffer 1 strain",
+                "required": 1
+            },
+            {
+                "text": "Lose benefit of prior maneuver",
+                "required": 1
+            },
+            {
+                "text": "Opponent immediately performs one free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "[se] to active or allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Fall prone",
+                "required": 3
+            },
+            {
+                "text": "Initiative slot being used now last in initiative order",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Ranged attack hits character engaged with target",
+                "required": 1
+            },
+            {
+                "text": "Ranged weapon runs out of ammo",
+                "required": 1
+            },
+            {
+                "text": "Upgrade difficulty of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Tool / weapon being used is damaged",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameRangedHeavy": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Apply a critical injury (based on critical rating of weapon)",
+                "required": 1
+            },
+            {
+                "text": "Recover one strain",
+                "required": 1
+            },
+            {
+                "text": "+[bo] to next allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Perform immediate free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[se] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to any allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Negate target's defensive bonuses until next round",
+                "required": 3
+            },
+            {
+                "text": "Ignore environmental penalty until end of next turn",
+                "required": 3
+            },
+            {
+                "text": "Target is disabled instead of suffering wounds/strain",
+                "required": 3
+            },
+            {
+                "text": "+1 melee or ranged defense until end of next round",
+                "required": 3
+            },
+            {
+                "text": "Target drops weapon they're wielding",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Upgrade difficulty of target's next check",
+                "required": 1
+            },
+            {
+                "text": "Upgrade ability of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Destroy a piece of equipment carried by target",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Suffer 1 strain",
+                "required": 1
+            },
+            {
+                "text": "Lose benefit of prior maneuver",
+                "required": 1
+            },
+            {
+                "text": "Opponent immediately performs one free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "[se] to active or allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Fall prone",
+                "required": 3
+            },
+            {
+                "text": "Initiative slot being used now last in initiative order",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Ranged attack hits character engaged with target",
+                "required": 1
+            },
+            {
+                "text": "Ranged weapon runs out of ammo",
+                "required": 1
+            },
+            {
+                "text": "Upgrade difficulty of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Tool / weapon being used is damaged",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameGunnery": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Apply a critical injury (based on critical rating of weapon)",
+                "required": 1
+            },
+            {
+                "text": "Recover one strain",
+                "required": 1
+            },
+            {
+                "text": "+[bo] to next allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Perform immediate free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[se] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to any allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Negate target's defensive bonuses until next round",
+                "required": 3
+            },
+            {
+                "text": "Ignore environmental penalty until end of next turn",
+                "required": 3
+            },
+            {
+                "text": "Target is disabled instead of suffering wounds/strain",
+                "required": 3
+            },
+            {
+                "text": "+1 melee or ranged defense until end of next round",
+                "required": 3
+            },
+            {
+                "text": "Target drops weapon they're wielding",
+                "required": 3
+            }
+        ],
+        "tr": [
+            {
+                "text": "Upgrade difficulty of target's next check",
+                "required": 1
+            },
+            {
+                "text": "Upgrade ability of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Destroy a piece of equipment carried by target",
+                "required": 2
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Suffer 1 strain",
+                "required": 1
+            },
+            {
+                "text": "Lose benefit of prior maneuver",
+                "required": 1
+            },
+            {
+                "text": "Opponent immediately performs one free maneuver",
+                "required": 2
+            },
+            {
+                "text": "+[bo] to target's next check",
+                "required": 2
+            },
+            {
+                "text": "[se] to active or allied character's next check",
+                "required": 2
+            },
+            {
+                "text": "Fall prone",
+                "required": 3
+            },
+            {
+                "text": "Initiative slot being used now last in initiative order",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Ranged attack hits character engaged with target",
+                "required": 1
+            },
+            {
+                "text": "Ranged weapon runs out of ammo",
+                "required": 1
+            },
+            {
+                "text": "Upgrade difficulty of any allied character's next check",
+                "required": 1
+            },
+            {
+                "text": "Tool / weapon being used is damaged",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameAstrogation": {
+        "su": [
+            {
+                "text": "Decrease calculation time",
+                "required": 1
+            },
+            {
+                "text": "increase the accuracy of a hyperspace jump",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Reduce travel time",
+                "required": 1
+            },
+            {
+                "text": "Identify convenient stopovers",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "complete Astrogation calculations in the minimum amount of time",
+                "required": 1
+            },
+            {
+                "text": "reveal some highly valuable but previously unknown information, such as a much better, alternative travel route",
+                "required": 1
+            },
+            {
+                "text": "Greatly reduce the travel time involved.",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Increase the travel time of a hyperspace jump",
+                "required": 1
+            },
+            {
+                "text": "Decrease the accuracy of a hyperspace jump",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Could trigger something truly awful happening, such as jumping out of hyperspace in the path of an asteroid",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameAthletics": {
+        "su": [
+            {
+                "text": "Reduce time / increase distance traveled",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "+[bo] on other physical checks",
+                "required": 1
+            },
+            {
+                "text": "+1 movement-based maneuver",
+                "required": 2
+            }
+        ],
+        "tr": [],
+        "fa": [],
+        "th": [
+            {
+                "text": "+1 strain",
+                "required": 1
+            },
+            {
+                "text": "Fall prone",
+                "required": 2
+            },
+            {
+                "text": "+1 wound",
+                "required": 3
+            }
+        ],
+        "de": [
+            {
+                "text": "Critical Injury",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCharm": {
+        "su": [
+            {
+                "text": "Extend support for +1 scene",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Affect subjects beyond original target",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Target becomes recurring ally",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Reduce number of people influenced",
+                "required": 1
+            },
+            {
+                "text": "Turn people other than target against them",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Target or other NPC becomes recurring adversary",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCoercion": {
+        "su": [
+            {
+                "text": "+1 strain",
+                "required": 2
+            }
+        ],
+        "ad": [
+            {
+                "text": "Affect subjects beyond original target",
+                "required": 2
+            }
+        ],
+        "tr": [
+            {
+                "text": "Target becomes recurring subjugated ally",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Building resentment in the NPC",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Coercer reveals something about their true intentions",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameComputers": {
+        "su": [
+            {
+                "text": "Reduce time required",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Uncover additional information (additional assets,owner's personal journals, well-concealed defenses)",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Conceal the system slice",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Security systems are alerted, other slicers gain +[bo] against character",
+                "required": 1
+            },
+            {
+                "text": "",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Character can be traced / identified, +[bo] against future Computer checks targeting the slicer",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCool": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Additional insight into situation",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "-3 strain",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Miss vital detail/event",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Staggered for 1 round",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameCoordination": {
+        "su": [
+            {
+                "text": "Increase distance by 25%, up to a maximum of [su][su][su][su]",
+                "required": 1
+            },
+            {
+                "text": "Decrease time",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "+1 maneuver",
+                "required": 2
+            }
+        ],
+        "tr": [],
+        "fa": [],
+        "th": [
+            {
+                "text": "Lose free maneuver for 1 turn",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "+1 wound / lose piece of equipment",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameDeception": {
+        "su": [
+            {
+                "text": "Extend duration of deception",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Increase value of goods/services gained",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Target believes character is trustworthy; future checks are not opposed (GM assigns difficulty based on lie)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Target sees through part of lie / knows he's been lied to",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Target spreads word of the deception",
+                "required": 1
+            },
+            {
+                "text": "Target turns lie to their advantage (bad info / goods)",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameDiscipline": {
+        "su": [
+            {
+                "text": "Downgrade [CH] on next action",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Additional insight into situation",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "+ [bo] to ally's Discipline checks for 1 round",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "+[di] to next action, character's resolve undermined",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Loses action / can only perform 1 maneuver next round",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameLeadership": {
+        "su": [
+            {
+                "text": "Extend duration of support",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Affect subjects beyond original target",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "NPC becomes recurring faithful follower",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Ordered actions take longer or done poorly",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "+[di] to future Leadership checks until rep repaired",
+                "required": 1
+            },
+            {
+                "text": "Target becomes recurring problem, refusing to take orders or turning others against character",
+                "required": 2
+            }
+        ]
+    },
+    "SWFFG.SkillsNameMechanics": {
+        "su": [
+            {
+                "text": "Reduce time required by 10-20%",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Superior Repairs: +[bo] using item for 1 session / Item gains Superior quality for 1 session",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Give device a new, single-use function",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Item malfunctions in the near future",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Additional damage to target",
+                "required": 1
+            },
+            {
+                "text": "Related components begin to malfunction",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsMedicine": {
+        "su": [
+            {
+                "text": "heals a single wound, up to the maximum number of wounds the target is currently suffering",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "-1 strain",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Medicine check to heal a Critical Injury may also heal additional wounds, or vice versa",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "+1 strain",
+                "required": 1
+            },
+            {
+                "text": "increase the amount of time the procedure takes",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "inflicting further wounds on a target whom he was attempting to heal of a Critical Injury",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameNegotiation": {
+        "su": [
+            {
+                "text": "Increase length of contract / profit by 5",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Gain perk / concession from target.",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "NPC becomes regular client / vendor",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Increase cost / decrease value / shorten contract.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Agreement contains serious loophole",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNamePerception": {
+        "su": [
+            {
+                "text": "Reveal additional details",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Recall additional information about object noticed",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Notice useful details, gain +[bo] on future interactions",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Conceal vital detail.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "False information",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNamePilotingPlanetary": {
+        "su": [],
+        "ad": [
+            {
+                "text": "+[bo] vs. opponent's piloting style",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "+1 maneuver with vehicle",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Opponent gains +[bo] vs. character",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Damage vehicle",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNamePilotingSpace": {
+        "su": [],
+        "ad": [
+            {
+                "text": "+[bo] vs. opponent's piloting style",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "+1 maneuver with vehicle",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Opponent gains +[bo] vs. character",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Damage vehicle",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameResilience": {
+        "su": [
+            {
+                "text": "Extend time before next Resilience check",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Identify method of gaining +[bo] on future Resilience checks (including for allies)",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "-3 strain",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "+[se] on next Resilience check",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "+1 wound or minor Critical Injury",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameSkulduggery": {
+        "su": [],
+        "ad": [
+            {
+                "text": "Gain additional items / identify additional target",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Gain permanent bypass",
+                "required": 1
+            },
+            {
+                "text": "Gain extra value / information",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "NPC opportunity to catch them after the act",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Evidence left behind / lost equipment",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameStealth": {
+        "su": [
+            {
+                "text": "Add [su] to allied character",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Reduce time required",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Identify method of distracting opponent for entire scene",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Increase time required by 25%",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Evidence left behind / lost equipment",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameStreetwise": {
+        "su": [
+            {
+                "text": "Reduce required time / cost",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Gain additional rumor / alternative source",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Gain semi-permanent NPC contact",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Information includes falsehood",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Character's questions / intention detected",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameSurvival": {
+        "su": [
+            {
+                "text": "Add [su] to allied character",
+                "required": 1
+            },
+            {
+                "text": "Gain additional supplies",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Identify method of gaining +[bo] on future Survival checks (including for allies)",
+                "required": 1
+            },
+            {
+                "text": "a(Tracking): Learn detail about target (numbers, species, age of tracks)",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "(Handle Animals): Animal is now permanent companion",
+                "required": 1
+            },
+            {
+                "text": "(Tracking): Learn detail about target (destination, disposition, presence of prisoners / cargo)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "The character spends vital resources during the course of his check",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "inflict wounds, Critical Injuries, or high levels of strain",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameVigilance": {
+        "su": [
+            {
+                "text": "Important resource is available",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "Spot environmental advantage (cover, escape route, +[bo])",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "Extra maneuver during the first round of a combat",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Miss information about situation / environment",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Unable to perform more than a single maneuver during the first round of combat",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeCoreWorlds": {
+        "su": [
+            {
+                "text": "Pieces of knowledge / speed of gaining knowledge",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "a particularly useful piece of knowledge",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "extremely useful piece of knowledge (i.e. weakness)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omits vital detail or context.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Seeds misinformation / outright falsehood",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeEducation": {
+        "su": [
+            {
+                "text": "Pieces of knowledge / speed of gaining knowledge",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "a particularly useful piece of knowledge",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "extremely useful piece of knowledge (i.e. weakness)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omits vital detail or context.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Seeds misinformation / outright falsehood",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeLore": {
+        "su": [
+            {
+                "text": "Pieces of knowledge / speed of gaining knowledge",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "a particularly useful piece of knowledge",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "extremely useful piece of knowledge (i.e. weakness)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omits vital detail or context.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Seeds misinformation / outright falsehood",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeOuterRim": {
+        "su": [
+            {
+                "text": "Pieces of knowledge / speed of gaining knowledge",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "a particularly useful piece of knowledge",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "extremely useful piece of knowledge (i.e. weakness)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omits vital detail or context.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Seeds misinformation / outright falsehood",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeUnderworld": {
+        "su": [
+            {
+                "text": "Pieces of knowledge / speed of gaining knowledge",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "a particularly useful piece of knowledge",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "extremely useful piece of knowledge (i.e. weakness)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omits vital detail or context.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Seeds misinformation / outright falsehood",
+                "required": 1
+            }
+        ]
+    },
+    "SWFFG.SkillsNameKnowledgeXenology": {
+        "su": [
+            {
+                "text": "Pieces of knowledge / speed of gaining knowledge",
+                "required": 1
+            }
+        ],
+        "ad": [
+            {
+                "text": "a particularly useful piece of knowledge",
+                "required": 1
+            }
+        ],
+        "tr": [
+            {
+                "text": "extremely useful piece of knowledge (i.e. weakness)",
+                "required": 1
+            }
+        ],
+        "fa": [],
+        "th": [
+            {
+                "text": "Omits vital detail or context.",
+                "required": 1
+            }
+        ],
+        "de": [
+            {
+                "text": "Seeds misinformation / outright falsehood",
+                "required": 1
+            }
+        ]
+    }
+}
