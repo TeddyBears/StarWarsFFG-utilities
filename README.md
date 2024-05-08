@@ -1,7 +1,8 @@
 # StarWarsFFG-utilities
 
 This module adds some utilities for [StarWarsFFG FoundryVTT system](https://github.com/StarWarsFoundryVTT/StarWarsFFG) like macros
-Everythings are translated.
+Everythings are translated.  
+Update suggestions for the dice_helper feature from [StarWarsFFG_Enhancements](https://github.com/wrycu/StarWarsFFG-Enhancements) module
 
 ## Compendium
 
