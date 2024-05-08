@@ -25,6 +25,7 @@ Install this module through the Foundry VTT Administrator interface by specifyin
 1. Be sure you don't have other critical injuries or critical damage items in your world. The macros to create roll table use all items from these 2 types.
 1. After installed the module go to compendium and import all items. This will add all critical items.
 1. Go to macro and use the macros _Create critical hits roll table_ and _Create critical injuries roll table_.
-1. On module settings you can activate option to add suggestions for all skills. For this the option for dice_helper have to be available in the module "StarWarsFFG_Enhancements"  
+1. On module settings you can activate option to add suggestions for all skills. For this the option for dice_helper have to be available in the module "StarWarsFFG_Enhancements"
+   * If the journal entry for the dice_helper already exists you should delete or rename it to allow the creation of a new one
 
 Now you can use the macro to apply critical. And have more suggestion on skill tests.
