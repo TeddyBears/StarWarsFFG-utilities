@@ -29,9 +29,6 @@ async function update_journal(journalEntry) {
     //let journal = game.journal.filter((journal) => journal.name === journal_name);
 
     if (journalEntry.name === journal_name) {
-        ui.notifications.info(
-            "Journal is OK"
-        );
         // This is a problem with the dice_helper code. the page use the journal name but to work the page name should be "dice_helper"
         let journal_pages = journalEntry.pages.filter((i) => i.name === journal_name);
 
