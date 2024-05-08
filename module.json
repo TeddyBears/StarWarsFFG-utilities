@@ -2,7 +2,7 @@
 	"id": "ffg-star-wars-utilities",
 	"title": "FFG Star Wars - Utilities",
 	"description": "Macros and some items",
-	"version": "11.1.0.809",
+	"version": "11.1.1.809",
 	"compatibility": {
 		"minimum": 11,
 		"verified": 11,
@@ -91,5 +91,5 @@
 	],
 	"url": "https://github.com/TeddyBears/StarWarsFFG-utilities",
 	"manifest": "https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json",
-	"download": "https://github.com/TeddyBears/StarWarsFFG-utilities/archive/refs/tags/v11.1.0.809.zip"
+	"download": "https://github.com/TeddyBears/StarWarsFFG-utilities/archive/refs/tags/v11.1.1.809.zip"
 }
