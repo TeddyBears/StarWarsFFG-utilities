@@ -13,5 +13,7 @@
     "ffg-star-wars-utilities.strain.selectSkill.label": "Select recovery skill",
     "ffg-star-wars-utilities.strain.healed": "a soigné",
     "ffg-star-wars-utilities.strain.with": "with",
-    "ffg-star-wars-utilities.strain.surplus": "surplus"
+    "ffg-star-wars-utilities.strain.surplus": "surplus",
+    "ffg-star-wars-utilities.dice-helperOverride": "Override dice-helper journal content",
+    "ffg-star-wars-utilities.dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'"
 }
