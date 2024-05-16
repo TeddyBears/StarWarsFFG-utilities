@@ -1,19 +1,66 @@
 {
-    "ffg-star-wars-utilities.damage.result": "Damage result",
-    "ffg-star-wars-utilities.damage.take": " took ",
-    "ffg-star-wars-utilities.damage.damages": " damage(s)",
-    "ffg-star-wars-utilities.token.notarget": "No tokens targeted.",
-    "ffg-star-wars-utilities.token.select": "Please select a single token.",
-    "ffg-star-wars-utilities.token.miss": "Attacker missed.",
-    "ffg-star-wars-utilities.token.nomessage": "no attack message found",
-    "ffg-star-wars-utilities.critical.tokenIsMinion": "Minions cannot take criticals",
-    "ffg-star-wars-utilities.strain.select": "A single token must be selected to recover",
-    "ffg-star-wars-utilities.strain.noStrain.has": "has no",
-    "ffg-star-wars-utilities.strain.noStrain.heal": "to heal",
-    "ffg-star-wars-utilities.strain.selectSkill.label": "Select recovery skill",
-    "ffg-star-wars-utilities.strain.healed": "a soigné",
-    "ffg-star-wars-utilities.strain.with": "with",
-    "ffg-star-wars-utilities.strain.surplus": "surplus",
-    "ffg-star-wars-utilities.dice-helperOverride": "Override dice-helper journal content",
-    "ffg-star-wars-utilities.dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'"
+    "ffg-star-wars-utilities": {
+        "token": {
+            "noSelected": "Please select only one token",
+            "notarget": "No tokens targeted.",
+            "select": "Please select a single token.",
+            "miss": "Attacker missed.",
+            "nomessage": "no attack message found"
+        },
+        "damage": {
+            "result": "Damage result",
+            "take": " took ",
+            "damages": " damage(s)",
+            "apply": {
+                "Button": "Apply damage of the result on ",
+                "noTarget": "You should select a target to apply damages or critical"
+            }
+        },
+        "damage-helper": {
+            "active": {
+                "label": "Apply damage and critial options",
+                "hint": "Add a dialog after weapon test to apply damage or critical to a target."
+            },
+            "netDamage": {
+                "label": "Display the amount of damage",
+                "hint": "If set the exact amount of damage is displayed in the chat. If not set an estimation of damage is diplayed."
+            },
+            "apply_damage": {
+                "label": "Apply damages to target"
+            },
+            "apply_critical": {
+                "label": "Apply critical injury to target"
+            },
+            "target": {
+                "label": "Target: "
+            },
+            "estimation": {
+                "small": "small wounds",
+                "some": "some wounds",
+                "serious": "serious wounds"
+            },
+            "dialog":{
+                "title":"Critical roll",
+                "selectTable": "Select table and modifiers",
+                "buttons":{
+                    "critical":"Roll critical",
+                    "cancel": "Cancel"
+                }
+            }
+        },
+        "critical": {
+            "tokenIsMinion": "Minions cannot take criticals"
+        },
+        "strain": {
+            "select": "A single token must be selected to recover",
+            "noStrain.has": "has no",
+            "noStrain.heal": "to heal",
+            "selectSkill.label": "Select recovery skill",
+            "healed": "healed",
+            "with": "with",
+            "surplus": "surplus"
+        },
+        "dice-helperOverride": "Override dice-helper journal content",
+        "dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'"
+    }
 }
