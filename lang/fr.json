@@ -1,18 +1,66 @@
 {
-    "ffg-star-wars-utilities.damage.result": "Résusltat des dégâts",
-    "ffg-star-wars-utilities.damage.take": " a pris ",
-    "ffg-star-wars-utilities.damage.damages": " dégâts(s)",
-    "ffg-star-wars-utilities.token.notarget": "Vous devez cibler un token",
-    "ffg-star-wars-utilities.token.select": "Vous devez sélectionner un seul token",
-    "ffg-star-wars-utilities.token.miss": "L'attaquant a raté sa cible",
-    "ffg-star-wars-utilities.token.nomessage": "Pas de message d'attaque trouvé",
-    "ffg-star-wars-utilities.critical.tokenIsMinion": "Les minions ne peuvent pas prendre de critique",
-    "ffg-star-wars-utilities.strain.select": "Un seul token doit être sélectionné pour récupérer le ",
-    "ffg-star-wars-utilities.strain.noStrain.has": "n'a pas de",
-    "ffg-star-wars-utilities.strain.noStrain.heal": "à soigner",
-    "ffg-star-wars-utilities.strain.selectSkill.label": "Sélectionner la compétence de récupération",
-    "ffg-star-wars-utilities.strain.with": "avec",
-    "ffg-star-wars-utilities.strain.surplus": "surplus d'",
-    "ffg-star-wars-utilities.dice-helperOverride": "Met à jour le contenu du journal dice_helper",
-    "ffg-star-wars-utilities.dice-helperOverride-hint": "Ajoute des suggestions pour les compétences pour la fonctionalité 'dice_helper' du module 'StarWarsFFG_Enhancements'"
+    "ffg-star-wars-utilities": {
+        "token": {
+            "noSelected": "Vous devez sélectionner un token et un seul",
+            "notarget": "Vous devez cibler un token",
+            "select": "Vous devez sélectionner un seul token",
+            "miss": "L'attaquant a raté sa cible",
+            "nomessage": "Pas de message d'attaque trouvé"
+        },
+        "damage": {
+            "result": "Résultat des dégâts",
+            "take": " a pris ",
+            "damages": " dégât(s)",
+            "apply": {
+                "Button": "Appliquer les dégâts du résultat sur ",
+                "noTarget": "Vous devez selectionner une cible pour appliquer les dégâts"
+            }
+        },
+        "damage-helper": {
+            "active": {
+                "label":  "Appliquer les dégâts et les critiques",
+                "hint": "Après un test d'arme, propose d'appliquer les dégâts et les critiques à une cible."
+            },
+            "netDamage": {
+                "label": "Affiche le montant de dégâts que prend la cible",
+                "hint": "Si activé, le montant exact des dégâts appliqués à la cible est affiché.\n Sinon une estimation des dégâts est indiquée."
+            },
+            "apply_damage": {
+                "label": "Appliquer les dégâts à la cible"
+            },
+            "apply_critical": {
+                "label": "Appliquer une blessure critique à la cible"
+            },
+            "target": {
+                "label": "Cible : "
+            },
+            "estimation": {
+                "small": "de petites blessures",
+                "some": "quelques blessures",
+                "serious": "de sérieuses blessures"
+            },
+            "dialog":{
+                "title":"Jet de critique",
+                "selectTable": "Sélection de la table et modificateurs",
+                "buttons":{
+                    "critical":"Lancer les dés",
+                    "cancel": "Annuler"
+                }
+            }
+        },
+        "critical": {
+            "tokenIsMinion": "Les minions ne peuvent pas prendre de critique"
+        },
+        "strain": {
+            "select": "Un seul token doit être sélectionné pour récupérer le ",
+            "noStrain.has": "n'a pas de",
+            "noStrain.heal":"à soigner",
+            "selectSkill.label": "Sélectionner la compétence de récupération",
+            "healed": "a soigné",
+            "with":  "avec",
+            "surplus": "surplus d'"
+        },
+        "dice-helperOverride": "Met à jour le contenu du journal dice_helper",
+        "dice-helperOverride-hint": "Ajoute des suggestions pour les compétences pour la fonctionalité 'dice_helper' du module 'StarWarsFFG_Enhancements'"
+    }
 }
