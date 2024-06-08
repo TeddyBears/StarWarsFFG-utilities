@@ -14,7 +14,10 @@
 				"id": "starwarsffg",
 				"manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
 				"type": "system",
-				"compatibility": {}
+				"compatibility": {
+					"minimum": "1.809",
+					"verified": "1.809"
+				}
 			}
 		],
 		"requires": [
