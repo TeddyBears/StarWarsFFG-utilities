@@ -46,9 +46,9 @@
                     "critical":"Lancer les dés",
                     "cancel": "Annuler"
                 },
-                "modifier":"Modificateur (critiques & talent durable) : ",
-                "durableRank":"Rang Durable : ",
-                "rollTable":"Table aléatoire des critiques: "
+                "modifier":"Modificateurs",
+                "durableRank":"Rang Durable",
+                "rollTable":"Table des critiques"
             },
             "items": {
                 "lethalBlows": "coup mortel",

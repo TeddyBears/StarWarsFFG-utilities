@@ -201,7 +201,6 @@ Handler.apply_critical = async function (data) {
         data.tables = optionValues
         data.durableRank = durableRank
         data.modifier = modifier - durableValue
-        console.log(data)
 
         let d = new Dialog({
             title: game.i18n.localize('ffg-star-wars-utilities.damage-helper.dialog.title'),

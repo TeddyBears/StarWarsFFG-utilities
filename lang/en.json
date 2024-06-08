@@ -46,9 +46,9 @@
                     "critical": "Roll critical",
                     "cancel": "Cancel"
                 },
-                "modifier":"Modifier (criticals & durable talent): ",
-                "durableRank":"Durable rank: ",
-                "rollTable":"Criticals roll table: "
+                "modifier":"Modifiers",
+                "durableRank":"Durable rank",
+                "rollTable":"Criticals roll table"
             },
             "items": {
                 "lethalBlows": "lethal blows",
