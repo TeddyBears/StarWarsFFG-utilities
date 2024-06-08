@@ -59,7 +59,7 @@
             }
         },
         "critical": {
-            "tokenIsMinion": "Les minions ne peuvent pas prendre de critique"
+            "tokenIsMinion": "Un des sbire du groupe est mort"
         },
         "strain": {
             "select": "Un seul token doit être sélectionné pour récupérer le ",

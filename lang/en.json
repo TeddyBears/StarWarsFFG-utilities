@@ -59,7 +59,7 @@
             }
         },
         "critical": {
-            "tokenIsMinion": "Minions cannot take criticals"
+            "tokenIsMinion": "One member of the group is dead"
         },
         "strain": {
             "select": "A single token must be selected to recover",
