@@ -15,6 +15,7 @@ Add critical hits and critical injuries items
 
 Macros come from [StarWarsFFG FoundryVTT system wiki](https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Helpful-macros).  
 Some modifications was done to these macros to add translations in interface message. And some minor modifications / fixes.  
+Apply critical macro can be ued by players. But it does not apply the critical item to token because players don't have permissions to do it.
 
 ## Instalation
 
