@@ -13,7 +13,7 @@ Add critical hits and critical injuries items
 
 ### Macros
 
-Macros come from https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Helpful-macros.  
+Macros come from [StarWarsFFG FoundryVTT system wiki](https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Helpful-macros).  
 Some modifications was done to these macros to add translations in interface message. And some minor modifications / fixes.  
 
 ## Instalation
