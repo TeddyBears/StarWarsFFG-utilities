@@ -151,7 +151,6 @@ Handler.apply_critical = async function (data) {
         ui.notifications.info(game.i18n.localize('ffg-star-wars-utilities.token.noSelected'));
         return;
     }
-
     let token = canvas.tokens.controlled[0];
 
     if (token.actor.type === "minion") {
@@ -165,7 +164,6 @@ Handler.apply_critical = async function (data) {
         await token.actor.update({ ['system.stats.wounds.value']: Math.min(maxWound, parseInt(newUnit_wound)) });
     } else {
         const tables = game.tables.map(table => {
-
             if (table.name.includes("Critical")) {
                 if (token != null && ((token.actor.type === "vehicle" && table.name === "Critical Damage")
                     || (token.actor.type === "character" && table.name === "Critical Injuries")
@@ -180,45 +178,48 @@ Handler.apply_critical = async function (data) {
             }
 
         })
-
-        let modifier = 0, durableRank = 0;
+        const optionValues = tables.join("");
+        let modifier = 0, durableValue = 0, durableRank = 0;
 
         //Count the number of injuries the token already has
         modifier = token.actor.items.filter(item => item.type === "criticalinjury" || item.type === "criticaldamage").length * 10;
+
+        //Check if the attacker has lethal blows talents
+        let attackerToken = await game.actors.get(data.message.speaker.actor);
+        let lethalBlowsTalent = attackerToken.talentList.filter(item => item.name.toLowerCase().includes(game.i18n.localize("ffg-star-wars-utilities.damage-helper.items.lethalBlows")));
+        if (lethalBlowsTalent.length > 0) {
+            modifier += lethalBlowsTalent[0].rank * 10;
+        }
         //check to see if the token has the Durable talent
         let durableTalent = token.actor.items.filter(item => item.name.toLowerCase() === "durable");
         //If the talent is found multiply it by 10 for the roll
         if (durableTalent.length > 0) {
-            durableRank = durableTalent[0].system.ranks.current * 10;
+            durableRank = durableTalent[0].system.ranks.current
+            durableValue = durableTalent[0].system.ranks.current * 10;
         }
 
+        data.tables = optionValues
+        data.durableRank = durableRank
+        data.modifier = modifier - durableValue
+        console.log(data)
 
         let d = new Dialog({
             title: game.i18n.localize('ffg-star-wars-utilities.damage-helper.dialog.title'),
-            content: `<p>` + game.i18n.localize('ffg-star-wars-utilities.damage-helper.dialog.title') + `</p>
-    <div class="grid grid-3col">
-      <div>Modifiers: 
-        <input name="modifier" class="modifier" style="width:50%" type="text" placeholder="` + modifier + `" value="` + modifier + `" data-dtype="String" />
-      </div>
-      <div>Durable: ` + durableRank + `
-      </div>
-      <div>
-        Table: <select class="crittable">${tables.join("")}</select>
-      </div>
-    </div>`,
+            content: await renderTemplate("modules/ffg-star-wars-utilities/templates/dialog-critical.hbs", data),
             buttons: {
                 one: {
                     icon: '<i class="fas fa-user-injured"></i>',
                     label: game.i18n.localize('ffg-star-wars-utilities.damage-helper.dialog.buttons.critical'),
                     callback: (html) => {
                         let modifier;
-                        modifier = parseInt(html.find(".modifier").val(), 10);
+                        modifier = parseInt(html.find("#modifier").val(), 10);
+                        console.log(html.find("#modifier").val())
                         if (isNaN(modifier)) {
                             modifier = 0;
                         }
-                        const table = html.find(".crittable :selected").val();
+                        const table = html.find("#crittable :selected").val();
                         //Added in the Durable modifications as well as making sure it doesn't roll below 1
-                        const critRoll = new Roll(`max(1d100 + ${modifier} - ${durableRank}, 1)`);
+                        const critRoll = new Roll(`max(1d100 + ${modifier}, 1)`);
                         const tableResult = game.tables.get(table).draw({
                             roll: critRoll,
                             displayChat: true

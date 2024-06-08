@@ -1075,7 +1075,7 @@
             }
         ]
     },
-    "SWFFG.SkillsMedicine": {
+    "SWFFG.SkillsNameMedicine": {
         "su": [
             {
                 "text": "soigne une seule blessure, jusqu'au nombre maximum de blessures que la cible subit actuellement",

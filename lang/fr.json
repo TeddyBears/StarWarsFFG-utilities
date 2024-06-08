@@ -45,7 +45,17 @@
                 "buttons":{
                     "critical":"Lancer les dés",
                     "cancel": "Annuler"
-                }
+                },
+                "modifier":"Modificateur (critiques & talent durable) : ",
+                "durableRank":"Rang Durable : ",
+                "rollTable":"Table aléatoire des critiques: "
+            },
+            "items": {
+                "lethalBlows": "coup mortel",
+                "durable": "durable",
+                "cortosis": "cortosis",
+                "pierce": "perforant",
+                "breach": "brèche"
             }
         },
         "critical": {

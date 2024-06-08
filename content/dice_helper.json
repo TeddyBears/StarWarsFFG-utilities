@@ -1075,7 +1075,7 @@
             }
         ]
     },
-    "SWFFG.SkillsMedicine": {
+    "SWFFG.SkillsNameMedicine": {
         "su": [
             {
                 "text": "heals a single wound, up to the maximum number of wounds the target is currently suffering",

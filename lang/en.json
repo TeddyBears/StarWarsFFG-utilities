@@ -39,13 +39,23 @@
                 "some": "some wounds",
                 "serious": "serious wounds"
             },
-            "dialog":{
-                "title":"Critical roll",
+            "dialog": {
+                "title": "Critical roll",
                 "selectTable": "Select table and modifiers",
-                "buttons":{
-                    "critical":"Roll critical",
+                "buttons": {
+                    "critical": "Roll critical",
                     "cancel": "Cancel"
-                }
+                },
+                "modifier":"Modifier (criticals & durable talent): ",
+                "durableRank":"Durable rank: ",
+                "rollTable":"Criticals roll table: "
+            },
+            "items": {
+                "lethalBlows": "lethal blows",
+                "durable": "durable",
+                "cortosis": "cortosis",
+                "pierce": "pierce",
+                "breach": "breach"
             }
         },
         "critical": {
