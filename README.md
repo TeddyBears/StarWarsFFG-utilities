@@ -13,8 +13,9 @@ Add critical hits and critical injuries items
 
 ### Macros
 
-Macros come from https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Helpful-macros.  
+Macros come from [StarWarsFFG FoundryVTT system wiki](https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Helpful-macros).  
 Some modifications was done to these macros to add translations in interface message. And some minor modifications / fixes.  
+Apply critical macro can be ued by players. But it does not apply the critical item to token because players don't have permissions to do it.
 
 ## Instalation
 
@@ -39,5 +40,12 @@ After a weapon check, the module tests if it's a success and if critical injurie
 If ok, only gamemaster shows the action buttons in the chat message.  
 The Gamemaster have to select a token (don't target the token)  
 For damage calculation the module uses item qualities (items name have to be in english):  
+
 * Pierce and Breach qualities for the used weapon
 * Cortosis quality on equipped armor from the selected token
+
+For critical modifiers the module uses attacker and target talents or items:
+
+* If attacker has lethal Blows talent (Coup mortel in french) modifier is updated (+ rank * 10)
+* If selected token has durable talent (same in french)  modifier is updated (- rank * 10)
+* If selected token is a minions, one minion is removed from the group

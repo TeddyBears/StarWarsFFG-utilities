@@ -45,11 +45,21 @@
                 "buttons":{
                     "critical":"Lancer les dés",
                     "cancel": "Annuler"
-                }
+                },
+                "modifier":"Modificateurs",
+                "durableRank":"Rang Durable",
+                "rollTable":"Table des critiques"
+            },
+            "items": {
+                "lethalBlows": "coup mortel",
+                "durable": "durable",
+                "cortosis": "cortosis",
+                "pierce": "perforant",
+                "breach": "brèche"
             }
         },
         "critical": {
-            "tokenIsMinion": "Les minions ne peuvent pas prendre de critique"
+            "tokenIsMinion": "Un des sbire du groupe est mort"
         },
         "strain": {
             "select": "Un seul token doit être sélectionné pour récupérer le ",

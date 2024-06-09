@@ -1,0 +1,15 @@
+<form class="form">
+    <div class="form-group">
+        <label for="modifier">{{localize "ffg-star-wars-utilities.damage-helper.dialog.modifier"}}</label>
+        <div class="form-fields">
+            <input name="modifier" id="modifier" type="text" placeholder="{{modifier}}" value="{{modifier}}"
+                data-dtype="String" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="crittable">{{localize "ffg-star-wars-utilities.damage-helper.dialog.rollTable"}}</label>
+        <div class="form-fields">
+            <select name="crittable" id="crittable">{{{tables}}}</select>
+        </div>
+    </div>
+</form>
