@@ -212,7 +212,6 @@ Handler.apply_critical = async function (data) {
                     callback: (html) => {
                         let modifier;
                         modifier = parseInt(html.find("#modifier").val(), 10);
-                        console.log(html.find("#modifier").val())
                         if (isNaN(modifier)) {
                             modifier = 0;
                         }
