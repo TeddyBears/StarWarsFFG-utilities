@@ -26,12 +26,10 @@ async function update_journal(journalEntry) {
 
     // otherwise check to see if the journal already exists
     let journal_name = game.settings.get("ffg-star-wars-enhancements", "dice-helper-data");
-    //let journal = game.journal.filter((journal) => journal.name === journal_name);
 
     if (journalEntry.name === journal_name) {
         // This is a problem with the dice_helper code. the page use the journal name but to work the page name should be "dice_helper"
-        let journal_pages = journalEntry.pages.filter((i) => i.name === journal_name);
-
+        let journal_pages = journalEntry.pages.filter((i) => i.name === page_name);
         // let's search for a translated one (will probably show an error in console, can't avoid it)
         let jsonFilePath = "modules/ffg-star-wars-utilities/content/dice_helper_" + game.i18n.lang + ".json";
         let logFileStatus = "translated";
