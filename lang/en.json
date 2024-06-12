@@ -62,13 +62,13 @@
             "tokenIsMinion": "One member of the group is dead"
         },
         "strain": {
-            "select": "A single token must be selected to recover",
-            "noStrain.has": "has no",
-            "noStrain.heal": "to heal",
+            "select": "A single token must be selected",
+            "noStrain.heal": "has no strain to heal",
             "selectSkill.label": "Select recovery skill",
             "healed": "healed",
             "with": "with",
-            "surplus": "surplus"
+            "surplus": "surplus",
+            "dialog.title": "Post-Encounter strain recovery"
         },
         "dice-helperOverride": "Override dice-helper journal content",
         "dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'"

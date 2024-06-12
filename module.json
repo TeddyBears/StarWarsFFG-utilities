@@ -43,6 +43,9 @@
 	"esmodules": [
 		"scripts/ffg-star-wars-utilities.js"
 	],
+	"styles": [
+		"styles/dist/ffg-star-wars-utilities.min.css"
+	],
 	"languages": [
 		{
 			"lang": "en",

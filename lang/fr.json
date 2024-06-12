@@ -62,13 +62,13 @@
             "tokenIsMinion": "Un des sbire du groupe est mort"
         },
         "strain": {
-            "select": "Un seul token doit être sélectionné pour récupérer le ",
-            "noStrain.has": "n'a pas de",
-            "noStrain.heal":"à soigner",
+            "select": "Un seul token doit être sélectionné",
+            "noStrain.heal":"n'a pas de stress à soigner",
             "selectSkill.label": "Sélectionner la compétence de récupération",
             "healed": "a soigné",
             "with":  "avec",
-            "surplus": "surplus d'"
+            "surplus": "surplus d'",
+            "dialog.title": "Récupération de stress après combat"
         },
         "dice-helperOverride": "Met à jour le contenu du journal dice_helper",
         "dice-helperOverride-hint": "Ajoute des suggestions pour les compétences pour la fonctionalité 'dice_helper' du module 'StarWarsFFG_Enhancements'"
