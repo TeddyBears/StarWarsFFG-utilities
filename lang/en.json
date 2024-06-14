@@ -62,12 +62,10 @@
             "tokenIsMinion": "One member of the group is dead"
         },
         "strain": {
-            "select": "A single token must be selected",
+            "select": "Please select only one token",
             "noStrain.heal": "has no strain to heal",
             "selectSkill.label": "Select recovery skill",
-            "healed": "healed",
-            "with": "with",
-            "surplus": "surplus",
+            "healed": "healed {quantity} strain",            
             "dialog.title": "Post-Encounter strain recovery"
         },
         "dice-helperOverride": "Override dice-helper journal content",

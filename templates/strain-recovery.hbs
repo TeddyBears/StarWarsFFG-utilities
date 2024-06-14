@@ -1,0 +1,21 @@
+<form class="form">
+    {{localize "ffg-star-wars-utilities.strain.selectSkill.label"}}
+    <div class="grid grid-2col">
+        <div class="form-group">
+            <label for="Cool">
+                <input type="radio" id="Cool" name="selected_skill" value="Cool" {{cool_checked}} />
+                {{cool_skill.label}}
+                <div id="cool_preview" class="roll-button dice-pool hover"></div>
+            </label>
+
+        </div>
+        <div class="form-group">
+            <label for="Discipline">
+                <input type="radio" id="Discipline" name="selected_skill" value="Discipline" {{discipline_checked}} />
+                {{discipline_skill.label}}
+                <div id="discipline_preview" class="roll-button dice-pool hover"></div>
+            </label>
+
+        </div>
+    </div>
+</form>
