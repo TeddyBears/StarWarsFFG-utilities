@@ -15,7 +15,27 @@ Add critical hits and critical injuries items
 
 Macros come from [StarWarsFFG FoundryVTT system wiki](https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Helpful-macros).  
 Some modifications was done to these macros to add translations in interface message. And some minor modifications / fixes.  
-Apply critical macro can be ued by players. But it does not apply the critical item to token because players don't have permissions to do it.
+
+#### Create critical hits roll table
+
+Create roll table for critical hits to be used by the _apply critical_ macro
+Critical hits items should exist. Can be imported from compendium.  
+
+#### Create critical injuries roll table
+
+Create roll table for critical injuries to be used by the _apply critical_ macro.  
+Critical injuries items should exist. Can be imported from compendium.  
+
+#### Apply criticals
+
+Apply critical macro can be used by players. But it does not apply the critical item to token because players don't have permissions to do it.
+For gamemaster is it possible to activate button in chat message to apply criticals. In this case critical item is added to actor.
+Roll tables for critical hits and critical injuries should exist
+
+#### Strain Recover
+
+Can be used after a combat to recover strain.  
+Roll _discipline_ or _cool_ skill and update the actor.  
 
 ## Instalation
 

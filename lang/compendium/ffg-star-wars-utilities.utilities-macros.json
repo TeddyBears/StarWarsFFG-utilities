@@ -6,10 +6,6 @@
             "name": "Appliquer un critique"
         },
         {
-            "id": "Apply damage",
-            "name": "Appliquer les dégâts"
-        },
-        {
             "id": "Create critical hits roll table",
             "name": "Création de la table aléatoire des dégâts critiques"
         },
@@ -19,7 +15,7 @@
         },
         {
             "id": "Strain Recovery",
-            "name": "Récupération du stess"
+            "name": "Récupération du stress"
         }
     ]
 }
