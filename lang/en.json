@@ -2,7 +2,7 @@
     "ffg-star-wars-utilities": {
         "token": {
             "noSelected": "Please select only one token",
-            "notarget": "No tokens targeted.",
+            "notarget": "You should select a target. default shortcut => T",
             "select": "Please select a single token.",
             "miss": "Attacker missed.",
             "nomessage": "no attack message found"
@@ -29,7 +29,8 @@
                 "label": "Apply damages to target"
             },
             "apply_critical": {
-                "label": "Apply critical injury to target"
+                "label": "Apply critical injury to target",
+                "notApply": "<small>The injury was not apply automatically. don't forget to add to the actor sheet</small><hr>"
             },
             "target": {
                 "label": "Target: "
@@ -69,6 +70,9 @@
             "dialog.title": "Post-Encounter strain recovery"
         },
         "dice-helperOverride": "Override dice-helper journal content",
-        "dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'"
+        "dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'",
+        "user": {
+            "notGM": "Only Gamemaster can use this action"
+        }
     }
 }

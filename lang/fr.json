@@ -2,7 +2,7 @@
     "ffg-star-wars-utilities": {
         "token": {
             "noSelected": "Vous devez sélectionner un token et un seul",
-            "notarget": "Vous devez cibler un token",
+            "notarget": "Vous devez cibler un token. Raccourci par défaut => T",
             "select": "Vous devez sélectionner un seul token",
             "miss": "L'attaquant a raté sa cible",
             "nomessage": "Pas de message d'attaque trouvé"
@@ -29,7 +29,8 @@
                 "label": "Appliquer les dégâts à la cible"
             },
             "apply_critical": {
-                "label": "Appliquer une blessure critique à la cible"
+                "label": "Appliquer une blessure critique à la cible",
+                 "notApply": "<small>La blessure n'a pas été appliquée automatiquement. Ne pas oublier de l'ajouter à la fiche</small><hr>"
             },
             "target": {
                 "label": "Cible : "
@@ -69,6 +70,9 @@
             "dialog.title": "Récupération de stress après combat"
         },
         "dice-helperOverride": "Met à jour le contenu du journal dice_helper",
-        "dice-helperOverride-hint": "Ajoute des suggestions pour les compétences pour la fonctionalité 'dice_helper' du module 'StarWarsFFG_Enhancements'"
+        "dice-helperOverride-hint": "Ajoute des suggestions pour les compétences pour la fonctionalité 'dice_helper' du module 'StarWarsFFG_Enhancements'",
+        "user": {
+            "notGM": "Seul le maître du jeu peut utiliser cette action"
+        }
     }
 }

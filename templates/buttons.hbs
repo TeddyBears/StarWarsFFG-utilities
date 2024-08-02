@@ -1,14 +1,5 @@
 <div class="damage-application damage-roll-buttons">
   <hr>
-  {{localize "ffg-star-wars-utilities.damage-helper.target.label"}}
-
-  {{#if (and target)}}
-  {{target.name}}
-  {{else}}
-  {{localize "ffg-star-wars-utilities.token.notarget"}}
-  {{/if}}
-
-
   <div class="flexrow">
     <button data-action="damage" data-tooltip="ffg-star-wars-utilities.damage-helper.apply_damage.label">
       <i class="fas fa-burst"></i>
