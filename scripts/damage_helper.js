@@ -26,12 +26,14 @@ export function init() {
 
     //if it is a result from a weapon test, add chat button to apply damage and critical
     RollFFG.CHAT_TEMPLATE = "modules/ffg-star-wars-utilities/templates/dice/roll-ffg.html";
+    // register templates parts
+    const templatePaths = [
+        "systems/starwarsffg/templates/dice/roll-ffg.html",
+    ];
+
+    loadTemplates(templatePaths);
 }
 
-/** Check chat message. if it is a result from a weapon test, add chat button to apply damage and critical
- * 
- * Return void
- */
 export async function damage_helper() {
     if (!game.settings.get("ffg-star-wars-utilities", "damage-helper-active")) {
         return;
