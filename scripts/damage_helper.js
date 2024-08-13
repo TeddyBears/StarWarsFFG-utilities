@@ -63,17 +63,14 @@ async function apply_damage(data) {
     let target = canvas.tokens.get(game.user.targets.ids[0]);
     let weapon = data.data
     let chatContent = "";
-
+    console.log(target)
     if (target) {
         let soak = parseInt(target.actor.system.stats.soak.value);
-        let oldWounds = Number.isInteger(parseInt(target.actor.system.stats.wounds.value)) ? parseInt(target.actor.system.stats.wounds.value) : 0;
-        let oldStrain = Number.isInteger(parseInt(target.actor.system.stats.strain.value)) ? parseInt(target.actor.system.stats.strain.value) : 0;
-
         let pierce = 0, breach = 0, haveCortosis = false;
         let pierceList = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("pierce"));
         let breachList = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("breach"));
-        let isStrain = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("stun damage"));
 
+        //calculate soak of the target from the used weapon  and equipped armor
         let armor = await target.actor.items.filter(item => item.type === "armour");
         armor.forEach(function (currentArmor) {
             if (currentArmor.system.equippable.equipped) {
@@ -95,16 +92,23 @@ async function apply_damage(data) {
 
         let leftoverSoak = (soak - (pierce + breach));
         leftoverSoak = (leftoverSoak < 0) ? 0 : leftoverSoak;
+
+        //calculate damages from the weapon used, checked roll and calculated soak
         let baseDamage = (weapon.system.damage?.adjusted) ? weapon.system.damage.adjusted : weapon.system.damage.value;
         let extraDamage = parseInt(data.ffg.success);
         let totalDamage = parseInt(baseDamage + extraDamage);
         let damageTaken = (parseInt(totalDamage - leftoverSoak) < 0) ? 0 : parseInt(totalDamage - leftoverSoak);
-        let damageType = "", damageValue = 0;
 
-        if (isStrain.length > 0) {
-            damageValue = (oldStrain + damageTaken);
+        //calculate left wounds or strain of the target
+        let damageType = "", damageValue = 0;
+        let isStrain = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("stun damage"));
+        if (isStrain.length > 0 && target.actor.system.stats.strain && target.actor.type != "minion") {
+            console.log('strain')
+            let oldStrain = parseInt(target.actor.system.stats.strain.value)
             damageType = 'system.stats.strain.value';
+            damageValue = (oldStrain + damageTaken);
         } else {
+            let oldWounds = Number.isInteger(parseInt(target.actor.system.stats.wounds.value)) ? parseInt(target.actor.system.stats.wounds.value) : 0;
             damageValue = (oldWounds + damageTaken);
             damageType = 'system.stats.wounds.value';
         }
