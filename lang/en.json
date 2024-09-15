@@ -68,7 +68,7 @@
             "selectSkill.label": "Select recovery skill",
             "healed": "{quantity} strain healed",
             "dialog.title": "Post-Encounter strain recovery",
-            "serenity": "serenity"
+            "balance": "balance"
         },
         "dice-helperOverride": "Override dice-helper journal content",
         "dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'",

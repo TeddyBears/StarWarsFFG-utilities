@@ -30,7 +30,7 @@ Critical injuries items should exist. Can be imported from compendium.
 
 Can be used after a combat to recover strain.  
 Roll _discipline_ or _cool_ skill and update the actor.
-Check if the actor has the talent Serenity. If yes add his force pool to the check and calculation of strain healed.   
+Check if the actor has the talent Balance. If yes add his force pool to the check and calculation of strain healed.   
 
 ## Instalation
 

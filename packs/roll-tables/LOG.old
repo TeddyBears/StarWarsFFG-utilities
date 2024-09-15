@@ -1,8 +1,3 @@
-2024/09/15-12:01:51.836 5adc Recovering log #556
-2024/09/15-12:01:51.839 5adc Delete type=0 #556
-2024/09/15-12:01:51.839 5adc Delete type=3 #554
-2024/09/15-12:04:55.117 5148 Level-0 table #561: started
-2024/09/15-12:04:55.117 5148 Level-0 table #561: 0 bytes OK
-2024/09/15-12:04:55.119 5148 Delete type=0 #559
-2024/09/15-12:04:55.123 5148 Manual compaction at level-0 from '!tables!EAsq5Y9MAegRQeW7' @ 72057594037927935 : 1 .. '!tables.results!NksGMgQjhuzHS8yG.jHLvXw5niyhkFUnB' @ 0 : 0; will stop at (end)
-2024/09/15-12:04:55.123 5148 Manual compaction at level-1 from '!tables!EAsq5Y9MAegRQeW7' @ 72057594037927935 : 1 .. '!tables.results!NksGMgQjhuzHS8yG.jHLvXw5niyhkFUnB' @ 0 : 0; will stop at (end)
+2024/09/15-15:05:36.278 3840 Recovering log #461
+2024/09/15-15:05:36.281 3840 Delete type=0 #461
+2024/09/15-15:05:36.281 3840 Delete type=3 #459

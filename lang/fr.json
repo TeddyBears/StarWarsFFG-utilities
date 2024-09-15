@@ -68,7 +68,7 @@
             "selectSkill.label": "Sélectionner la compétence de récupération",
             "healed": "A guérit {quantity} de stress",
             "dialog.title": "Récupération de stress après combat",
-            "serenity": "sérénité"
+            "balance": "sérénité"
         },
         "dice-helperOverride": "Met à jour le contenu du journal dice_helper",
         "dice-helperOverride-hint": "Ajoute des suggestions pour les compétences pour la fonctionalité 'dice_helper' du module 'StarWarsFFG_Enhancements'",
