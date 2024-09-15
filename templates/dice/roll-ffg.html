@@ -1,0 +1,21 @@
+{{> "systems/starwarsffg/templates/dice/roll-ffg.html"}}
+
+{{#if (or (eq system.type "weapon") (eq system.type "shipweapon"))}}
+{{#if ffg.success}}
+<hr>
+<div class="damage-application damage-roll-buttons">
+  <div class="flexrow">
+    <button class="ffg-utilities-damage" data-tooltip="ffg-star-wars-utilities.damage-helper.apply_damage.label">
+      <i class="fas fa-burst"></i>
+    </button>
+
+    {{#if (or ffg.triumph (gte ffg.advantage system.system.crit.adjusted))}}
+    <button class="ffg-utilities-critical" data-tooltip="ffg-star-wars-utilities.damage-helper.apply_critical.label">
+      <i class="fas fa-user-injured"></i>
+    </button>
+    {{/if}}
+
+  </div>
+</div>
+{{/if}}{{/if}}
+<hr>
