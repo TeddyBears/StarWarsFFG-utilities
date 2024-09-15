@@ -1,7 +1,7 @@
 # StarWarsFFG-utilities
 
 This module adds some utilities for [StarWarsFFG FoundryVTT system](https://github.com/StarWarsFoundryVTT/StarWarsFFG) like macros  
-Everythings are translated.  
+Everythings are translated in french.  
 Update suggestions for the dice_helper feature from [StarWarsFFG_Enhancements](https://github.com/wrycu/StarWarsFFG-Enhancements) module  
 Add buttons to apply damage or critical after a weapon check.  
 
@@ -15,7 +15,22 @@ Add critical hits and critical injuries items
 
 Macros come from [StarWarsFFG FoundryVTT system wiki](https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Helpful-macros).  
 Some modifications was done to these macros to add translations in interface message. And some minor modifications / fixes.  
-Apply critical macro can be ued by players. But it does not apply the critical item to token because players don't have permissions to do it.
+
+#### Create critical hits roll table
+
+Create roll table for critical hits to be used by the _apply critical_ macro
+Critical hits items should exist. Can be imported from compendium.  
+
+#### Create critical injuries roll table
+
+Create roll table for critical injuries to be used by the _apply critical_ macro.  
+Critical injuries items should exist. Can be imported from compendium.  
+
+#### Strain Recover
+
+Can be used after a combat to recover strain.  
+Roll _discipline_ or _cool_ skill and update the actor.
+Check if the actor has the talent Serenity. If yes add his force pool to the check and calculation of strain healed.   
 
 ## Instalation
 
@@ -37,8 +52,7 @@ Now you can use the macro to apply critical. And have more suggestion on skill t
 ## How apply damage or critical injuries from chat message
 
 After a weapon check, the module tests if it's a success and if critical injuries are available (enough advantages or a triumph).  
-If ok, only gamemaster shows the action buttons in the chat message.  
-The Gamemaster have to select a token (don't target the token)  
+If ok, players or gamemaster can target (not select) a token and click on the damage and / or critilcal button in the chat message.
 For damage calculation the module uses item qualities (items name have to be in english):  
 
 * Pierce and Breach qualities for the used weapon
@@ -47,5 +61,5 @@ For damage calculation the module uses item qualities (items name have to be in 
 For critical modifiers the module uses attacker and target talents or items:
 
 * If attacker has lethal Blows talent (Coup mortel in french) modifier is updated (+ rank * 10)
-* If selected token has durable talent (same in french)  modifier is updated (- rank * 10)
-* If selected token is a minions, one minion is removed from the group
+* If targeted token has durable talent (same in french)  modifier is updated (- rank * 10)
+* If targeted token is a minions, one minion is removed from the group

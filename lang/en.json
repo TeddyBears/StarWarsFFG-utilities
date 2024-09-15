@@ -2,7 +2,7 @@
     "ffg-star-wars-utilities": {
         "token": {
             "noSelected": "Please select only one token",
-            "notarget": "No tokens targeted.",
+            "notarget": "You should select a target. default shortcut => T",
             "select": "Please select a single token.",
             "miss": "Attacker missed.",
             "nomessage": "no attack message found"
@@ -29,7 +29,8 @@
                 "label": "Apply damages to target"
             },
             "apply_critical": {
-                "label": "Apply critical injury to target"
+                "label": "Apply critical injury to target",
+                "notApply": "<small>The injury was not apply automatically. don't forget to add to the actor sheet</small><hr>"
             },
             "target": {
                 "label": "Target: "
@@ -46,9 +47,9 @@
                     "critical": "Roll critical",
                     "cancel": "Cancel"
                 },
-                "modifier":"Modifiers",
-                "durableRank":"Durable rank",
-                "rollTable":"Criticals roll table"
+                "modifier": "Modifiers",
+                "durableRank": "Durable rank",
+                "rollTable": "Criticals roll table"
             },
             "items": {
                 "lethalBlows": "lethal blows",
@@ -62,15 +63,17 @@
             "tokenIsMinion": "One member of the group is dead"
         },
         "strain": {
-            "select": "A single token must be selected to recover",
-            "noStrain.has": "has no",
-            "noStrain.heal": "to heal",
+            "select": "Please select only one token",
+            "noStrain.heal": "has no strain to heal",
             "selectSkill.label": "Select recovery skill",
-            "healed": "healed",
-            "with": "with",
-            "surplus": "surplus"
+            "healed": "{quantity} strain healed",
+            "dialog.title": "Post-Encounter strain recovery",
+            "serenity": "serenity"
         },
         "dice-helperOverride": "Override dice-helper journal content",
-        "dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'"
+        "dice-helperOverride-hint": "Add suggestions for all skills for the feature 'dice_helper' from the module 'StarWarsFFG_Enhancements'",
+        "user": {
+            "notGM": "Only Gamemaster can use this action"
+        }
     }
 }

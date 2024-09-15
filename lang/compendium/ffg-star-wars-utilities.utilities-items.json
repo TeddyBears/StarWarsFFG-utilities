@@ -130,8 +130,8 @@
 		},
 		"Fearsome Wound": {
 			"id": "Fearsome Wound",
-			"name": "Blessure Lancinante",
-			"description": "La cible ajoute [di] à tous ses tests de Vigueur et d'Agilité jusqu'à la fin de la rencontre"
+			"name": "Blessure redoutable",
+			"description": "La cible ajoute [di] à tous ses tests de Presence et Volonté jusqu'à la fin de la rencontre"
 		},
 		"Power Fluctuations": {
 			"id": "Power Fluctuations",

@@ -2,11 +2,10 @@
 	"id": "ffg-star-wars-utilities",
 	"title": "FFG Star Wars - Utilities",
 	"description": "Macros and some items",
-	"version": "11.2.1.1_809",
+	"version": "12.0.0.1_902",
 	"compatibility": {
-		"minimum": 11,
-		"verified": 11,
-		"maximum": 11
+		"minimum": "11",
+		"verified": "12"
 	},
 	"relationships": {
 		"systems": [
@@ -15,8 +14,8 @@
 				"manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
 				"type": "system",
 				"compatibility": {
-					"minimum": "1.809",
-					"verified": "1.809"
+					"minimum": "1.901",
+					"verified": "1.902"
 				}
 			}
 		],
@@ -27,7 +26,7 @@
 				"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
 				"compatibility": {
 					"minimum": "2.5.0",
-					"verified": "2.5.3"
+					"verified": "2.5.5"
 				}
 			},
 			{
@@ -35,14 +34,17 @@
 				"type": "module",
 				"manifest": "https://github.com/wrycu/StarWarsFFG-Enhancements/releases/latest/download/module.json",
 				"compatibility": {
-					"minimum": "2.0.6",
-					"verified": "2.0.6"
+					"minimum": "2.1.1",
+					"verified": "2.1.1"
 				}
 			}
 		]
 	},
 	"esmodules": [
 		"scripts/ffg-star-wars-utilities.js"
+	],
+	"styles": [
+		"styles/dist/ffg-star-wars-utilities.min.css"
 	],
 	"languages": [
 		{
@@ -94,5 +96,5 @@
 	],
 	"url": "https://github.com/TeddyBears/StarWarsFFG-utilities",
 	"manifest": "https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json",
-	"download": "https://github.com/TeddyBears/StarWarsFFG-utilities/archive/refs/tags/v11.2.1.1_809.zip"
+	"download": "https://github.com/TeddyBears/StarWarsFFG-utilities/archive/refs/tags/v12.0.0.1_902.zip"
 }
