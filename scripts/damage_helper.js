@@ -59,11 +59,9 @@ async function apply_damage(data) {
         ui.notifications.info(game.i18n.localize('ffg-star-wars-utilities.token.notarget'));
         return;
     }
-    console.log(game.user)
     let target = canvas.tokens.get(game.user.targets.ids[0]);
     let weapon = data.data
     let chatContent = "";
-    console.log(target)
     if (target) {
         let soak = parseInt(target.actor.system.stats.soak.value);
         let pierce = 0, breach = 0, haveCortosis = false;
@@ -103,7 +101,6 @@ async function apply_damage(data) {
         let damageType = "", damageValue = 0;
         let isStrain = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("stun damage"));
         if (isStrain.length > 0 && target.actor.system.stats.strain && target.actor.type != "minion") {
-            console.log('strain')
             let oldStrain = parseInt(target.actor.system.stats.strain.value)
             damageType = 'system.stats.strain.value';
             damageValue = (oldStrain + damageTaken);

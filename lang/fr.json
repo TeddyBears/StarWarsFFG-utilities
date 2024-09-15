@@ -18,7 +18,7 @@
         },
         "damage-helper": {
             "active": {
-                "label":  "Appliquer les dégâts et les critiques",
+                "label": "Appliquer les dégâts et les critiques",
                 "hint": "Après un test d'arme, propose d'appliquer les dégâts et les critiques à une cible."
             },
             "netDamage": {
@@ -30,7 +30,7 @@
             },
             "apply_critical": {
                 "label": "Appliquer une blessure critique à la cible",
-                 "notApply": "<small>La blessure n'a pas été appliquée automatiquement. Ne pas oublier de l'ajouter à la fiche</small><hr>"
+                "notApply": "<small>La blessure n'a pas été appliquée automatiquement. Ne pas oublier de l'ajouter à la fiche</small><hr>"
             },
             "target": {
                 "label": "Cible : "
@@ -40,16 +40,16 @@
                 "some": "quelques blessures",
                 "serious": "de sérieuses blessures"
             },
-            "dialog":{
-                "title":"Jet de critique",
+            "dialog": {
+                "title": "Jet de critique",
                 "selectTable": "Sélection de la table et modificateurs",
-                "buttons":{
-                    "critical":"Lancer les dés",
+                "buttons": {
+                    "critical": "Lancer les dés",
                     "cancel": "Annuler"
                 },
-                "modifier":"Modificateurs",
-                "durableRank":"Rang Durable",
-                "rollTable":"Table des critiques"
+                "modifier": "Modificateurs",
+                "durableRank": "Rang Durable",
+                "rollTable": "Table des critiques"
             },
             "items": {
                 "lethalBlows": "coup mortel",
@@ -64,10 +64,11 @@
         },
         "strain": {
             "select": "Vous devez sélectionner un token et un seul",
-            "noStrain.heal":"n'a pas de stress à soigner",
+            "noStrain.heal": "n'a pas de stress à soigner",
             "selectSkill.label": "Sélectionner la compétence de récupération",
-            "healed": "a guérit {quantity} de stress",
-            "dialog.title": "Récupération de stress après combat"
+            "healed": "A guérit {quantity} de stress",
+            "dialog.title": "Récupération de stress après combat",
+            "serenity": "sérénité"
         },
         "dice-helperOverride": "Met à jour le contenu du journal dice_helper",
         "dice-helperOverride-hint": "Ajoute des suggestions pour les compétences pour la fonctionalité 'dice_helper' du module 'StarWarsFFG_Enhancements'",
