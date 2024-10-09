@@ -1,5 +1,8 @@
-2024/09/15-15:14:05.595 5f20 Recovering log #373
-2024/09/15-15:14:05.595 5f20 Level-0 table #375: started
-2024/09/15-15:14:05.597 5f20 Level-0 table #375: 16250 bytes OK
-2024/09/15-15:14:05.600 5f20 Delete type=0 #373
-2024/09/15-15:14:05.600 5f20 Delete type=3 #372
+2024/10/09-17:43:58.113 1aa8 Recovering log #613
+2024/10/09-17:43:58.116 1aa8 Delete type=0 #613
+2024/10/09-17:43:58.116 1aa8 Delete type=3 #611
+2024/10/09-17:44:11.242 3614 Level-0 table #618: started
+2024/10/09-17:44:11.242 3614 Level-0 table #618: 0 bytes OK
+2024/10/09-17:44:11.243 3614 Delete type=0 #616
+2024/10/09-17:44:11.245 3614 Manual compaction at level-0 from '!macros!5YTi7l8yGSaSOj44' @ 72057594037927935 : 1 .. '!macros!PLXpo9xm9OP6YZ6A' @ 0 : 0; will stop at (end)
+2024/10/09-17:44:11.245 3614 Manual compaction at level-1 from '!macros!5YTi7l8yGSaSOj44' @ 72057594037927935 : 1 .. '!macros!PLXpo9xm9OP6YZ6A' @ 0 : 0; will stop at (end)
