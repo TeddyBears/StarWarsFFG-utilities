@@ -64,8 +64,6 @@ async function apply_damage(data) {
     let chatContent = "";
     let damageStrainType = "", damageWoundType = "";
     let soak = 0, oldStrain = 0, oldWounds = 0;
-    console.log(target)
-    console.log(data)
     if (target) {
         if (target.actor.type !== "vehicle") {
             soak = parseInt(target.actor.system.stats.soak.value);
@@ -113,6 +111,13 @@ async function apply_damage(data) {
         let baseDamage = (weapon.system.damage?.adjusted) ? weapon.system.damage.adjusted : weapon.system.damage.value;
         let extraDamage = parseInt(data.ffg.success);
         let totalDamage = parseInt(baseDamage + extraDamage);
+        if (weapon.type === "shipweapon" && target.actor.type !== "vehicle") {
+            totalDamage  = totalDamage * 10
+        }
+        if (weapon.type !== "shipweapon" && target.actor.type === "vehicle") {
+            totalDamage  = Math.floor(totalDamage / 10)
+        }
+
         let damageTaken = (parseInt(totalDamage - leftoverSoak) < 0) ? 0 : parseInt(totalDamage - leftoverSoak);
 
         //calculate left wounds or strain of the target
@@ -157,15 +162,12 @@ async function apply_damage(data) {
 
 
 async function apply_critical(data) {
-    console.log(data)
     if (game.user.targets.ids.length === 0) {
         ui.notifications.info(game.i18n.localize('ffg-star-wars-utilities.token.notarget'));
         return;
     }
     let target = canvas.tokens.get(game.user.targets.ids[0]);
     let attacker = canvas.tokens.get(data.speaker.actor);
-    console.log(target)
-    console.log(attacker)
 
     if (target.actor.type === "minion") {
         // minions don't take critical injuries. Just reduce the quantity by 1
@@ -243,7 +245,6 @@ async function apply_critical(data) {
                         const table = html.find("#crittable :selected").val();
                         //Added in the Durable modifications as well as making sure it doesn't roll below 1
                         const critRoll = new Roll(`max(1d100 + ${modifier}, 1)`);
-                        console.log(critRoll)
                         const tableResult = game.tables.get(table).draw({
                             roll: critRoll,
                             displayChat: true,
