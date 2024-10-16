@@ -62,17 +62,35 @@ async function apply_damage(data) {
     let target = canvas.tokens.get(game.user.targets.ids[0]);
     let weapon = data.data
     let chatContent = "";
+    let damageStrainType = "", damageWoundType = "";
+    let soak = 0, oldStrain = 0, oldWounds = 0;
+    console.log(target)
+    console.log(data)
     if (target) {
-        let soak = parseInt(target.actor.system.stats.soak.value);
-        let pierce = 0, breach = 0, haveCortosis = false;
-        let pierceList = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("pierce"));
-        let breachList = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("breach"));
+        if(target.actor.type !== "vehicle"){
+            soak = parseInt(target.actor.system.stats.soak.value);
+            oldStrain = parseInt(target.actor.system.stats.strain.value)
+            oldWounds = parseInt(target.actor.system.stats.wounds.value);
+            damageStrainType = 'system.stats.strain.value';
+            damageWoundType = 'system.stats.wounds.value';
+        }else{
+            soak = parseInt(target.actor.system.stats.armour.value);
+            oldStrain = parseInt(target.actor.system.stats.systemStrain.value)
+            oldWounds = parseInt(target.actor.system.stats.hullTrauma.value);
+            damageStrainType = 'system.stats.systemStrain.value';
+            damageWoundType = 'system.stats.hullTrauma.value';
+        }
 
-        //calculate soak of the target from the used weapon  and equipped armor
+        let pierce = 0, breach = 0, haveCortosis = false;
+        let pierceList = hasProperty(weapon,"pierce")
+        let breachList = hasProperty(weapon,"breach")
+
+        //calculate soak of the target from the used weapon and equipped armor
         let armor = await target.actor.items.filter(item => item.type === "armour");
         armor.forEach(function (currentArmor) {
             if (currentArmor.system.equippable.equipped) {
-                let cortosisMod = currentArmor.system.itemmodifier.filter(item => item.name.toLowerCase().startsWith("cortosis"));
+                //let cortosisMod = currentArmor.system.itemmodifier.filter(item => item.name.toLowerCase().startsWith("cortosis"));
+                let cortosisMod = hasProperty(currentArmor,"cortosis")
                 if (cortosisMod.length > 0) {
                     haveCortosis = true;
                 }
@@ -91,7 +109,7 @@ async function apply_damage(data) {
         let leftoverSoak = (soak - (pierce + breach));
         leftoverSoak = (leftoverSoak < 0) ? 0 : leftoverSoak;
 
-        //calculate damages from the weapon used, checked roll and calculated soak
+        //calculate damages from the weapon used, checked roll
         let baseDamage = (weapon.system.damage?.adjusted) ? weapon.system.damage.adjusted : weapon.system.damage.value;
         let extraDamage = parseInt(data.ffg.success);
         let totalDamage = parseInt(baseDamage + extraDamage);
@@ -99,21 +117,20 @@ async function apply_damage(data) {
 
         //calculate left wounds or strain of the target
         let damageType = "", damageValue = 0;
-        let isStrain = await weapon.system.itemmodifier.filter(w => w.name.toLowerCase().startsWith("stun damage"));
-        if (isStrain.length > 0 && target.actor.system.stats.strain && target.actor.type != "minion") {
-            let oldStrain = parseInt(target.actor.system.stats.strain.value)
-            damageType = 'system.stats.strain.value';
+        let isStrain = hasProperty(weapon,"stun damage")
+        if (isStrain.length > 0 && (target.actor.system.stats.strain?.value != null || target.actor.system.stats.systemStrain?.value != null) && target.actor.type !== "minion") {
+            damageType = damageStrainType;
             damageValue = (oldStrain + damageTaken);
         } else {
-            let oldWounds = Number.isInteger(parseInt(target.actor.system.stats.wounds.value)) ? parseInt(target.actor.system.stats.wounds.value) : 0;
+            damageType = damageWoundType;
             damageValue = (oldWounds + damageTaken);
-            damageType = 'system.stats.wounds.value';
+            
         }
 
         await target.actor.update({ [damageType]: Math.max(0, parseInt(damageValue)) });
 
         if (game.settings.get("ffg-star-wars-utilities", "damage-helper-netDamage")) {
-            chatContent = "@Actor[" + target.actor.name + "]" + game.i18n.localize('ffg-star-wars-utilities.damage.take') + damageTaken + game.i18n.localize('ffg-star-wars-utilities.damage.damages');
+            chatContent = "@UUID[" + target.actor.uuid + "]" + game.i18n.localize('ffg-star-wars-utilities.damage.take') + damageTaken + game.i18n.localize('ffg-star-wars-utilities.damage.damages');
         } else {
             let maxWounds = target.actor.system.stats.wounds.max;
             let percentDamage = damageTaken / maxWounds * 100;
@@ -126,7 +143,8 @@ async function apply_damage(data) {
                 estimateWounds = game.i18n.localize('ffg-star-wars-utilities.damage-helper.estimation.serious');
             }
 
-            chatContent = "@Actor[" + target.actor.name + "]" + game.i18n.localize('ffg-star-wars-utilities.damage.take') + estimateWounds;
+            chatContent = "@UUID[" + target.actor.uuid + "]" + game.i18n.localize('ffg-star-wars-utilities.damage.take') + estimateWounds;
+           
         }
 
         //display infos into chat box
@@ -253,4 +271,11 @@ async function apply_critical(data) {
         });
         d.render(true);
     }
+}
+/*
+
+*/
+function hasProperty(item,property){
+    let itemmodifier = item.system.itemmodifier.filter(itemmodifier => itemmodifier.name.toLowerCase().search(property) >= 0);
+    return itemmodifier
 }

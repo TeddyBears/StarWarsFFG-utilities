@@ -7,6 +7,7 @@
 		"minimum": "12",
 		"verified": "12"
 	},
+	"system": "starwarsffg",
 	"relationships": {
 		"systems": [
 			{
@@ -44,7 +45,7 @@
 		"scripts/ffg-star-wars-utilities.js"
 	],
 	"styles": [
-		"styles/dist/ffg-star-wars-utilities.min.css"
+		"styles/dist/ffg-star-wars-utilities.css"
 	],
 	"languages": [
 		{
@@ -91,10 +92,11 @@
 				"PLAYER": "OBSERVER",
 				"ASSISTANT": "OWNER"
 			},
-			"flags": {}
 		}
 	],
 	"url": "https://github.com/TeddyBears/StarWarsFFG-utilities",
+	"changelog":"https://github.com/TeddyBears/StarWarsFFG-utilities/blob/main/CHANGELOG.md",
+	"readme":"https://github.com/TeddyBears/StarWarsFFG-utilities/blob/main/README.md",
 	"manifest": "https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json",
 	"download": "https://github.com/TeddyBears/StarWarsFFG-utilities/archive/refs/tags/v12.0.0.1_903.zip"
 }
