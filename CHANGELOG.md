@@ -5,6 +5,7 @@
 * Features:
   * Use the translated version for the Durable talent (Dur au mal in french) to calculate the critical modifier
   * Add modifier explainations in critical dialog box
+  * The module is only available with the system `starwarsffg`
 
 * Fixes:
   * The link in the chat message is now to the token instaed the actor. This avoid problem for token not linked to an Actor
