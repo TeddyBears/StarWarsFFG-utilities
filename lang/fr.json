@@ -30,7 +30,14 @@
             },
             "apply_critical": {
                 "label": "Appliquer une blessure critique à la cible",
-                "notApply": "<small>La blessure n'a pas été appliquée automatiquement. Ne pas oublier de l'ajouter à la fiche</small><hr>"
+                "notApply": "<small>La blessure n'a pas été appliquée automatiquement. Ne pas oublier de l'ajouter à la fiche</small><hr>",
+                "modifierExplaination" : {
+                    "title":"Explication des modificateurs",
+                    "existingCritical": "<br>Critiques présents : ",
+                    "vehicleToPerson": "<br>Dégâts d'un véhicule vers un 'humain' : ",
+                    "lethalBlowsTalent": "<br>Talent coup mortel : ",
+                    "durableTalent":"<br>Talent Dur au mal : -"
+                }
             },
             "target": {
                 "label": "Cible : "
@@ -53,7 +60,7 @@
             },
             "items": {
                 "lethalBlows": "coup mortel",
-                "durable": "durable",
+                "durable": "dur au mal",
                 "cortosis": "cortosis",
                 "pierce": "perforant",
                 "breach": "brèche"

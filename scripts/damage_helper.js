@@ -67,13 +67,13 @@ async function apply_damage(data) {
     console.log(target)
     console.log(data)
     if (target) {
-        if(target.actor.type !== "vehicle"){
+        if (target.actor.type !== "vehicle") {
             soak = parseInt(target.actor.system.stats.soak.value);
             oldStrain = parseInt(target.actor.system.stats.strain.value)
             oldWounds = parseInt(target.actor.system.stats.wounds.value);
             damageStrainType = 'system.stats.strain.value';
             damageWoundType = 'system.stats.wounds.value';
-        }else{
+        } else {
             soak = parseInt(target.actor.system.stats.armour.value);
             oldStrain = parseInt(target.actor.system.stats.systemStrain.value)
             oldWounds = parseInt(target.actor.system.stats.hullTrauma.value);
@@ -82,15 +82,15 @@ async function apply_damage(data) {
         }
 
         let pierce = 0, breach = 0, haveCortosis = false;
-        let pierceList = hasProperty(weapon,"pierce")
-        let breachList = hasProperty(weapon,"breach")
+        let pierceList = hasProperty(weapon, "pierce")
+        let breachList = hasProperty(weapon, "breach")
 
         //calculate soak of the target from the used weapon and equipped armor
         let armor = await target.actor.items.filter(item => item.type === "armour");
         armor.forEach(function (currentArmor) {
             if (currentArmor.system.equippable.equipped) {
                 //let cortosisMod = currentArmor.system.itemmodifier.filter(item => item.name.toLowerCase().startsWith("cortosis"));
-                let cortosisMod = hasProperty(currentArmor,"cortosis")
+                let cortosisMod = hasProperty(currentArmor, "cortosis")
                 if (cortosisMod.length > 0) {
                     haveCortosis = true;
                 }
@@ -117,14 +117,14 @@ async function apply_damage(data) {
 
         //calculate left wounds or strain of the target
         let damageType = "", damageValue = 0;
-        let isStrain = hasProperty(weapon,"stun damage")
+        let isStrain = hasProperty(weapon, "stun damage")
         if (isStrain.length > 0 && (target.actor.system.stats.strain?.value != null || target.actor.system.stats.systemStrain?.value != null) && target.actor.type !== "minion") {
             damageType = damageStrainType;
             damageValue = (oldStrain + damageTaken);
         } else {
             damageType = damageWoundType;
             damageValue = (oldWounds + damageTaken);
-            
+
         }
 
         await target.actor.update({ [damageType]: Math.max(0, parseInt(damageValue)) });
@@ -144,7 +144,7 @@ async function apply_damage(data) {
             }
 
             chatContent = "@UUID[" + target.actor.uuid + "]" + game.i18n.localize('ffg-star-wars-utilities.damage.take') + estimateWounds;
-           
+
         }
 
         //display infos into chat box
@@ -157,11 +157,15 @@ async function apply_damage(data) {
 
 
 async function apply_critical(data) {
+    console.log(data)
     if (game.user.targets.ids.length === 0) {
         ui.notifications.info(game.i18n.localize('ffg-star-wars-utilities.token.notarget'));
         return;
     }
     let target = canvas.tokens.get(game.user.targets.ids[0]);
+    let attacker = canvas.tokens.get(data.speaker.actor);
+    console.log(target)
+    console.log(attacker)
 
     if (target.actor.type === "minion") {
         // minions don't take critical injuries. Just reduce the quantity by 1
@@ -189,28 +193,39 @@ async function apply_critical(data) {
 
         })
         const optionValues = tables.join("");
-        let modifier = 0, durableValue = 0, durableRank = 0;
+        let modifier = 0, durableValue = 0, durableRank = 0, modifierExplaination = "";
 
         //Count the number of injuries the token already has
         modifier = target.actor.items.filter(item => item.type === "criticalinjury" || item.type === "criticaldamage").length * 10;
+        modifierExplaination += game.i18n.localize('ffg-star-wars-utilities.damage-helper.apply_critical.modifierExplaination.existingCritical') + modifier
+        //Add modifier if a vehicle attack a non-vehicle target
+        if (data.rolls[0].data.type === "shipweapon" && target.actor.type !== "vehicle") {
+            let criticalModifier = 50
+            modifierExplaination += game.i18n.localize('ffg-star-wars-utilities.damage-helper.apply_critical.modifierExplaination.vehicleToPerson') + criticalModifier
+            modifier += criticalModifier;
+        }
 
         //Check if the attacker has lethal blows talents
         let attackerToken = await game.actors.get(data.speaker.actor);
         let lethalBlowsTalent = attackerToken.talentList.filter(item => item.name.toLowerCase().includes(game.i18n.localize("ffg-star-wars-utilities.damage-helper.items.lethalBlows")));
         if (lethalBlowsTalent.length > 0) {
+            modifierExplaination += game.i18n.localize('ffg-star-wars-utilities.damage-helper.apply_critical.modifierExplaination.lethalBlowsTalent') + lethalBlowsTalent[0].rank * 10
             modifier += lethalBlowsTalent[0].rank * 10;
         }
         //check to see if the target has the Durable talent
-        let durableTalent = target.actor.items.filter(item => item.name.toLowerCase() === "durable");
+        let durableTalent = target.actor.items.filter(item => item.name.toLowerCase().includes(game.i18n.localize("ffg-star-wars-utilities.damage-helper.items.durable")));;
         //If the talent is found multiply it by 10 for the roll
         if (durableTalent.length > 0) {
             durableRank = durableTalent[0].system.ranks.current
             durableValue = durableTalent[0].system.ranks.current * 10;
+            modifierExplaination += game.i18n.localize('ffg-star-wars-utilities.damage-helper.apply_critical.modifierExplaination.durableTalent') + durableValue
+            modifier -= durableValue
         }
 
         data.tables = optionValues
         data.durableRank = durableRank
-        data.modifier = modifier - durableValue
+        data.modifier = modifier
+        data.modifierExplaination = modifierExplaination
 
         let d = new Dialog({
             title: game.i18n.localize('ffg-star-wars-utilities.damage-helper.dialog.title'),
@@ -228,9 +243,10 @@ async function apply_critical(data) {
                         const table = html.find("#crittable :selected").val();
                         //Added in the Durable modifications as well as making sure it doesn't roll below 1
                         const critRoll = new Roll(`max(1d100 + ${modifier}, 1)`);
+                        console.log(critRoll)
                         const tableResult = game.tables.get(table).draw({
                             roll: critRoll,
-                            displayChat: true
+                            displayChat: true,
                         });
                         //If we have an actor selected try to add the injury
                         if (target) {
@@ -252,7 +268,7 @@ async function apply_critical(data) {
                                     }
 
                                     ChatMessage.create({
-                                        speaker: { alias: target.actor.name, token: target.actor.id },
+                                        speaker: { token: target.document, alias:target.actor.name },
                                         content: msgContent + item.system.description
                                     })
                                 }
@@ -275,7 +291,7 @@ async function apply_critical(data) {
 /*
 
 */
-function hasProperty(item,property){
+function hasProperty(item, property) {
     let itemmodifier = item.system.itemmodifier.filter(itemmodifier => itemmodifier.name.toLowerCase().search(property) >= 0);
     return itemmodifier
 }

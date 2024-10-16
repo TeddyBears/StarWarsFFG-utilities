@@ -30,7 +30,15 @@
             },
             "apply_critical": {
                 "label": "Apply critical injury to target",
-                "notApply": "<small>The injury was not apply automatically. don't forget to add to the actor sheet</small><hr>"
+                "notApply": "<small>The injury was not apply automatically. don't forget to add to the actor sheet</small><hr>",
+                "modifierExplaination" : {
+                    "title":"Modifier Explanations",
+                    "existingCritical": "<br>existing Criticals: ",
+                    "vehicleToPerson": "<br>Vehicle damage to 'human': ",
+                    "lethalBlowsTalent": "<br>Talent Lethal blows: ",
+                    "durableTalent":"<br>Talent Durable: -"
+                }
+                
             },
             "target": {
                 "label": "Target: "
