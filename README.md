@@ -34,9 +34,13 @@ Check if the actor has the talent Balance. If yes add his force pool to the chec
 
 ## Installation
 
-Install this module through the Foundry VTT Administrator interface by specifying the following URL: https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json
+### Method
+1. On Foundry VTT's **Configuration and Setup** screen, go to **Add-on Modules**
+2. Click **Install Module**
+3. In the Manifest URL field, paste: `https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json`
+4. Click **Install** next to the pasted Manifest URL
 
-## Setup
+### Setup
 
 1. As a Gamemaster, activate the ffg-star-wars-utilities module in your world.
 1. Be sure you don't have other critical injuries or critical damage items in your world. The macros to create roll table use all items from these 2 types.
@@ -61,5 +65,5 @@ For damage calculation the module uses item qualities (items name have to be in 
 For critical modifiers the module uses attacker and target talents or items:
 
 * If attacker has lethal Blows talent (Coup mortel in french) modifier is updated (+ rank * 10)
-* If targeted token has durable talent (same in french)  modifier is updated (- rank * 10)
+* If targeted token has durable talent (Dur au mal in french)  modifier is updated (- rank * 10)
 * If targeted token is a minions, one minion is removed from the group

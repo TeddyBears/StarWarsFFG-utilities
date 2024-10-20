@@ -1,5 +1,10 @@
 # Changelog
 
+`12.0.2.1_903`
+
+* Fixes:
+  * Change `collection` to `documentCollection` in the Macros to create the critical roll tables
+
 `12.0.1.1_903`
 
 * Features:
