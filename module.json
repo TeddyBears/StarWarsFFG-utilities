@@ -3,11 +3,15 @@
 	"title": "FFG Star Wars - Utilities",
 	"description": "Macros and some items",
 	"version": "12.0.2.1_903",
+	"authors": [
+		{
+		  "name": "Balebos"
+		}
+	  ],
 	"compatibility": {
 		"minimum": "12",
 		"verified": "12"
 	},
-	"system": "starwarsffg",
 	"relationships": {
 		"systems": [
 			{
@@ -94,6 +98,6 @@
 	"url": "https://github.com/TeddyBears/StarWarsFFG-utilities",
 	"changelog":"https://github.com/TeddyBears/StarWarsFFG-utilities/blob/main/CHANGELOG.md",
 	"readme":"https://github.com/TeddyBears/StarWarsFFG-utilities/blob/main/README.md",
-	"manifest": "https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/main/module.json",
-	"download": "https://github.com/TeddyBears/StarWarsFFG-utilities/archive/refs/tags/12.0.2.1_903.zip"
+	"manifest": "https://raw.githubusercontent.com/TeddyBears/StarWarsFFG-utilities/test/module.json",
+	"download": "https://github.com/TeddyBears/StarWarsFFG-utilities/archive/refs/tags/test.zip"
 }
