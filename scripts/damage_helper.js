@@ -26,6 +26,7 @@ export function init() {
 
     //if it is a result from a weapon test, add chat button to apply damage and critical
     RollFFG.CHAT_TEMPLATE = "modules/ffg-star-wars-utilities/templates/dice/roll-ffg.html";
+    console.log("utilities" + RollFFG.CHAT_TEMPLATE)
     // register templates parts
     const templatePaths = [
         "systems/starwarsffg/templates/dice/roll-ffg.html",
