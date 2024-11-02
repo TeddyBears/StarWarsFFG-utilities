@@ -1,5 +1,3 @@
-import { RollFFG } from "../../../systems/starwarsffg/modules/dice/roll.js";
-
 export function init() {
     game.settings.register("ffg-star-wars-utilities", "damage-helper-active", {
         name: game.i18n.localize("ffg-star-wars-utilities.damage-helper.active.label"),
@@ -25,7 +23,7 @@ export function init() {
     });
 
     //if it is a result from a weapon test, add chat button to apply damage and critical
-    RollFFG.CHAT_TEMPLATE = "modules/ffg-star-wars-utilities/templates/dice/roll-ffg.html";
+    game.ffg.RollFFG.CHAT_TEMPLATE = "modules/ffg-star-wars-utilities/templates/dice/roll-ffg.html";
     // register templates parts
     const templatePaths = [
         "systems/starwarsffg/templates/dice/roll-ffg.html",

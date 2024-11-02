@@ -1,5 +1,10 @@
 # Changelog
 
+`12.0.3.1_903`
+
+* Fixes:
+  * Change the path to roll chat for The Forge
+
 `12.0.2.1_903`
 
 * Fixes:
