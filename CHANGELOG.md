@@ -2,8 +2,10 @@
 
 `12.0.3.1_903`
 
+* Features:
+  * Add `skill descriptions` compendium translations
 * Fixes:
-  * Change the path to roll chat for The Forge
+  * Change the path to the roll chat template for The Forge
 
 `12.0.2.1_903`
 
@@ -19,6 +21,6 @@
   * Damage between vehicle and humain are calculated : vehicle damage * 10 VS human and human damage / 10 VS vehicle
 
 * Fixes:
-  * The link in the chat message is now to the token instaed the actor. This avoid problem for token not linked to an Actor
+  * The link in the chat message is now to the token instead of the actor. This avoid problem for token not linked to an Actor
   * Damage can be applied to vehicle
   * The result of the critical roll is affected to the attacker instead of the target in the chat message
